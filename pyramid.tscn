@@ -1,0 +1,5585 @@
+[gd_scene load_steps=270 format=2]
+
+[ext_resource path="res://archaeologist.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ViewportScript.gd" type="Script" id=2]
+[ext_resource path="res://ViewportScript3.gd" type="Script" id=3]
+[ext_resource path="res://ViewportScript2.gd" type="Script" id=4]
+[ext_resource path="res://ViewportScript4.gd" type="Script" id=5]
+[ext_resource path="res://ViewportScript5.gd" type="Script" id=6]
+[ext_resource path="res://ViewportScript6.gd" type="Script" id=7]
+[ext_resource path="res://ViewportScript7.gd" type="Script" id=8]
+[ext_resource path="res://ViewportScript8.gd" type="Script" id=9]
+[ext_resource path="res://ViewportScript9.gd" type="Script" id=10]
+[ext_resource path="res://ViewportScript10.gd" type="Script" id=11]
+[ext_resource path="res://ViewportScript11.gd" type="Script" id=12]
+[ext_resource path="res://texture.jpeg" type="Texture" id=13]
+[ext_resource path="res://ViewportScript12.gd" type="Script" id=14]
+[ext_resource path="res://texture2.jpeg" type="Texture" id=15]
+[ext_resource path="res://texture3.jpeg" type="Texture" id=16]
+[ext_resource path="res://ViewportScript15.gd" type="Script" id=17]
+[ext_resource path="res://ViewportScript14.gd" type="Script" id=18]
+[ext_resource path="res://ViewportScript16.gd" type="Script" id=19]
+[ext_resource path="res://ViewportScript17.gd" type="Script" id=20]
+[ext_resource path="res://ViewportScript18.gd" type="Script" id=21]
+[ext_resource path="res://ViewportScript19.gd" type="Script" id=22]
+[ext_resource path="res://fonts/Xolonium-Regular.ttf" type="DynamicFontData" id=23]
+[ext_resource path="res://ViewportScript13.gd" type="Script" id=24]
+[ext_resource path="res://ViewportScript20.gd" type="Script" id=25]
+[ext_resource path="res://ViewportScript21.gd" type="Script" id=26]
+[ext_resource path="res://ViewportScript22.gd" type="Script" id=27]
+[ext_resource path="res://ViewportScript23.gd" type="Script" id=28]
+[ext_resource path="res://ViewportScript24.gd" type="Script" id=29]
+[ext_resource path="res://ViewportScript25.gd" type="Script" id=30]
+[ext_resource path="res://ViewportScript26.gd" type="Script" id=31]
+[ext_resource path="res://ViewportScript27.gd" type="Script" id=32]
+[ext_resource path="res://ViewportScript28.gd" type="Script" id=33]
+[ext_resource path="res://ViewportScript29.gd" type="Script" id=34]
+[ext_resource path="res://ViewportScript30.gd" type="Script" id=35]
+[ext_resource path="res://ViewportScript31.gd" type="Script" id=36]
+[ext_resource path="res://ViewportScript32.gd" type="Script" id=37]
+[ext_resource path="res://ViewportScript33.gd" type="Script" id=38]
+[ext_resource path="res://ViewportScript34.gd" type="Script" id=39]
+[ext_resource path="res://ViewportScript35.gd" type="Script" id=40]
+[ext_resource path="res://ViewportScript36.gd" type="Script" id=41]
+[ext_resource path="res://ViewportScript37.gd" type="Script" id=42]
+[ext_resource path="res://ViewportScript38.gd" type="Script" id=43]
+[ext_resource path="res://ViewportScript39.gd" type="Script" id=44]
+[ext_resource path="res://ViewportScript40.gd" type="Script" id=45]
+[ext_resource path="res://ViewportScript41.gd" type="Script" id=46]
+[ext_resource path="res://ViewportScript42.gd" type="Script" id=47]
+[ext_resource path="res://ViewportScript43.gd" type="Script" id=48]
+[ext_resource path="res://ViewportScript44.gd" type="Script" id=49]
+[ext_resource path="res://ViewportScript45.gd" type="Script" id=50]
+[ext_resource path="res://ViewportScript46.gd" type="Script" id=51]
+[ext_resource path="res://ViewportScript48.gd" type="Script" id=52]
+[ext_resource path="res://ViewportScript47.gd" type="Script" id=53]
+[ext_resource path="res://ViewportScript49.gd" type="Script" id=54]
+[ext_resource path="res://ViewportScript50.gd" type="Script" id=55]
+[ext_resource path="res://ViewportScript51.gd" type="Script" id=56]
+[ext_resource path="res://ViewportScript52.gd" type="Script" id=57]
+[ext_resource path="res://ViewportScript53.gd" type="Script" id=58]
+[ext_resource path="res://ViewportScript54.gd" type="Script" id=59]
+[ext_resource path="res://ViewportScript55.gd" type="Script" id=60]
+[ext_resource path="res://ViewportScript56.gd" type="Script" id=61]
+[ext_resource path="res://ViewportScript57.gd" type="Script" id=62]
+[ext_resource path="res://ViewportScript58.gd" type="Script" id=63]
+[ext_resource path="res://ViewportScript59.gd" type="Script" id=64]
+[ext_resource path="res://ViewportScript60.gd" type="Script" id=65]
+[ext_resource path="res://ViewportScript61.gd" type="Script" id=66]
+[ext_resource path="res://ViewportScript62.gd" type="Script" id=67]
+[ext_resource path="res://ViewportScript63.gd" type="Script" id=68]
+[ext_resource path="res://ViewportScript64.gd" type="Script" id=69]
+[ext_resource path="res://ViewportScript65.gd" type="Script" id=70]
+[ext_resource path="res://ViewportScript66.gd" type="Script" id=71]
+[ext_resource path="res://ViewportScript67.gd" type="Script" id=72]
+[ext_resource path="res://ViewportScript70.gd" type="Script" id=73]
+[ext_resource path="res://ViewportScript68.gd" type="Script" id=74]
+[ext_resource path="res://ViewportScript69.gd" type="Script" id=75]
+[ext_resource path="res://ViewportScript71.gd" type="Script" id=76]
+[ext_resource path="res://ViewportScript72.gd" type="Script" id=77]
+[ext_resource path="res://ViewportScript73.gd" type="Script" id=78]
+[ext_resource path="res://ViewportScript74.gd" type="Script" id=79]
+[ext_resource path="res://ViewportScript75.gd" type="Script" id=80]
+[ext_resource path="res://ViewportScript76.gd" type="Script" id=81]
+[ext_resource path="res://ViewportScript77.gd" type="Script" id=82]
+[ext_resource path="res://ViewportScript78.gd" type="Script" id=83]
+[ext_resource path="res://ViewportScript79.gd" type="Script" id=84]
+[ext_resource path="res://ViewportScript80.gd" type="Script" id=85]
+[ext_resource path="res://ViewportScript81.gd" type="Script" id=86]
+[ext_resource path="res://ViewportScript82.gd" type="Script" id=87]
+[ext_resource path="res://ViewportScript83.gd" type="Script" id=88]
+[ext_resource path="res://ViewportScript84.gd" type="Script" id=89]
+[ext_resource path="res://ViewportScript85.gd" type="Script" id=90]
+[ext_resource path="res://ViewportScript86.gd" type="Script" id=91]
+[ext_resource path="res://ViewportScript87.gd" type="Script" id=92]
+[ext_resource path="res://ViewportScript88.gd" type="Script" id=93]
+[ext_resource path="res://ViewportScript89.gd" type="Script" id=94]
+[ext_resource path="res://ViewportScript90.gd" type="Script" id=95]
+[ext_resource path="res://Viewportscript91.gd" type="Script" id=96]
+
+[sub_resource type="SpatialMaterial" id=15]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=27]
+albedo_texture = ExtResource( 15 )
+
+[sub_resource type="SpatialMaterial" id=17]
+albedo_texture = ExtResource( 15 )
+
+[sub_resource type="SpatialMaterial" id=18]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=19]
+albedo_texture = ExtResource( 15 )
+
+[sub_resource type="SpatialMaterial" id=20]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=21]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=22]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=84]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=41]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=86]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=207]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=13]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=24]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=25]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=26]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=33]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=112]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=113]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=115]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=116]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=118]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=120]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=135]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=161]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=200]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=29]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=28]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=92]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=91]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=89]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=90]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=182]
+albedo_color = Color( 0.529412, 0.560784, 0.027451, 1 )
+
+[sub_resource type="SpatialMaterial" id=184]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=185]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=158]
+albedo_color = Color( 0.447059, 0.0509804, 0.4, 1 )
+
+[sub_resource type="SpatialMaterial" id=160]
+albedo_color = Color( 0.447059, 0.0509804, 0.4, 1 )
+
+[sub_resource type="SpatialMaterial" id=87]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=94]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=114]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=123]
+albedo_texture = ExtResource( 15 )
+
+[sub_resource type="SpatialMaterial" id=126]
+albedo_texture = ExtResource( 15 )
+
+[sub_resource type="SpatialMaterial" id=127]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=128]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=129]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="SpatialMaterial" id=137]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=138]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=139]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=145]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=142]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=143]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=144]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=140]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=141]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=147]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=148]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=192]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=149]
+albedo_color = Color( 0.0156863, 0.980392, 0.00784314, 1 )
+
+[sub_resource type="SpatialMaterial" id=150]
+albedo_color = Color( 0.0156863, 0.113725, 0.980392, 1 )
+
+[sub_resource type="SpatialMaterial" id=151]
+albedo_color = Color( 0.0156863, 0.0470588, 0.988235, 1 )
+
+[sub_resource type="SpatialMaterial" id=162]
+albedo_texture = ExtResource( 16 )
+
+[sub_resource type="SpatialMaterial" id=183]
+albedo_color = Color( 0.00392157, 0.976471, 0.956863, 1 )
+
+[sub_resource type="SpatialMaterial" id=187]
+albedo_color = Color( 0.0470588, 0.737255, 0.721569, 1 )
+
+[sub_resource type="SpatialMaterial" id=206]
+albedo_texture = ExtResource( 13 )
+
+[sub_resource type="ViewportTexture" id=106]
+viewport_path = NodePath("Viewport")
+
+[sub_resource type="DynamicFont" id=63]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=44]
+viewport_path = NodePath("Viewport2")
+
+[sub_resource type="DynamicFont" id=64]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=45]
+viewport_path = NodePath("Viewport3")
+
+[sub_resource type="DynamicFont" id=65]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=107]
+viewport_path = NodePath("Viewport4")
+
+[sub_resource type="DynamicFont" id=66]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=70]
+viewport_path = NodePath("Viewport5")
+
+[sub_resource type="DynamicFont" id=67]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=48]
+viewport_path = NodePath("Viewport6")
+
+[sub_resource type="DynamicFont" id=68]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=49]
+viewport_path = NodePath("Viewport7")
+
+[sub_resource type="DynamicFont" id=69]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=50]
+viewport_path = NodePath("Viewport8")
+
+[sub_resource type="DynamicFont" id=71]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=51]
+viewport_path = NodePath("Viewport9")
+
+[sub_resource type="DynamicFont" id=72]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=52]
+viewport_path = NodePath("Viewport10")
+
+[sub_resource type="DynamicFont" id=73]
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=53]
+viewport_path = NodePath("Viewport11")
+
+[sub_resource type="DynamicFont" id=74]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=54]
+viewport_path = NodePath("Viewport12")
+
+[sub_resource type="DynamicFont" id=75]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=76]
+viewport_path = NodePath("Viewport13")
+
+[sub_resource type="ViewportTexture" id=42]
+viewport_path = NodePath("Viewport14")
+
+[sub_resource type="DynamicFont" id=77]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=55]
+viewport_path = NodePath("Viewport15")
+
+[sub_resource type="DynamicFont" id=78]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=56]
+viewport_path = NodePath("Viewport16")
+
+[sub_resource type="DynamicFont" id=79]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=60]
+viewport_path = NodePath("Viewport17")
+
+[sub_resource type="DynamicFont" id=80]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=39]
+viewport_path = NodePath("Viewport18")
+
+[sub_resource type="DynamicFont" id=81]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=61]
+viewport_path = NodePath("Viewport19")
+
+[sub_resource type="DynamicFont" id=82]
+size = 64
+font_data = ExtResource( 23 )
+
+[sub_resource type="ViewportTexture" id=83]
+viewport_path = NodePath("Viewport20")
+
+[sub_resource type="ViewportTexture" id=85]
+viewport_path = NodePath("Viewport21")
+
+[sub_resource type="ViewportTexture" id=88]
+viewport_path = NodePath("Viewport22")
+
+[sub_resource type="ViewportTexture" id=93]
+viewport_path = NodePath("Viewport23")
+
+[sub_resource type="ViewportTexture" id=95]
+viewport_path = NodePath("Viewport24")
+
+[sub_resource type="ViewportTexture" id=96]
+viewport_path = NodePath("Viewport25")
+
+[sub_resource type="ViewportTexture" id=97]
+viewport_path = NodePath("Viewport26")
+
+[sub_resource type="ViewportTexture" id=98]
+viewport_path = NodePath("Viewport27")
+
+[sub_resource type="ViewportTexture" id=99]
+viewport_path = NodePath("Viewport28")
+
+[sub_resource type="ViewportTexture" id=100]
+viewport_path = NodePath("Viewport29")
+
+[sub_resource type="ViewportTexture" id=146]
+viewport_path = NodePath("Viewport30")
+
+[sub_resource type="ViewportTexture" id=136]
+viewport_path = NodePath("Viewport31")
+
+[sub_resource type="ViewportTexture" id=108]
+viewport_path = NodePath("Viewport32")
+
+[sub_resource type="ViewportTexture" id=105]
+viewport_path = NodePath("Viewport33")
+
+[sub_resource type="ViewportTexture" id=109]
+viewport_path = NodePath("Viewport34")
+
+[sub_resource type="ViewportTexture" id=110]
+viewport_path = NodePath("Viewport35")
+
+[sub_resource type="ViewportTexture" id=111]
+viewport_path = NodePath("Viewport36")
+
+[sub_resource type="ViewportTexture" id=117]
+viewport_path = NodePath("Viewport37")
+
+[sub_resource type="ViewportTexture" id=119]
+viewport_path = NodePath("Viewport38")
+
+[sub_resource type="ViewportTexture" id=121]
+viewport_path = NodePath("Viewport39")
+
+[sub_resource type="ViewportTexture" id=122]
+viewport_path = NodePath("Viewport40")
+
+[sub_resource type="ViewportTexture" id=124]
+viewport_path = NodePath("Viewport41")
+
+[sub_resource type="ViewportTexture" id=125]
+viewport_path = NodePath("Viewport42")
+
+[sub_resource type="ViewportTexture" id=130]
+viewport_path = NodePath("Viewport43")
+
+[sub_resource type="ViewportTexture" id=131]
+viewport_path = NodePath("Viewport44")
+
+[sub_resource type="ViewportTexture" id=132]
+viewport_path = NodePath("Viewport45")
+
+[sub_resource type="ViewportTexture" id=133]
+viewport_path = NodePath("Viewport46")
+
+[sub_resource type="ViewportTexture" id=215]
+viewport_path = NodePath("Viewport47")
+
+[sub_resource type="ViewportTexture" id=216]
+viewport_path = NodePath("Viewport48")
+
+[sub_resource type="ViewportTexture" id=153]
+viewport_path = NodePath("Sprite3D49/Viewport49")
+
+[sub_resource type="ViewportTexture" id=154]
+viewport_path = NodePath("Sprite3D50/Viewport50")
+
+[sub_resource type="ViewportTexture" id=155]
+viewport_path = NodePath("Sprite3D51/Viewport51")
+
+[sub_resource type="ViewportTexture" id=156]
+viewport_path = NodePath("Sprite3D52/Viewport52")
+
+[sub_resource type="ViewportTexture" id=157]
+viewport_path = NodePath("Sprite3D53/Viewport53")
+
+[sub_resource type="ViewportTexture" id=159]
+viewport_path = NodePath("Viewport54")
+
+[sub_resource type="ViewportTexture" id=163]
+viewport_path = NodePath("Viewport55")
+
+[sub_resource type="ViewportTexture" id=164]
+viewport_path = NodePath("Viewport56")
+
+[sub_resource type="ViewportTexture" id=165]
+viewport_path = NodePath("Viewport57")
+
+[sub_resource type="ViewportTexture" id=166]
+viewport_path = NodePath("Viewport58")
+
+[sub_resource type="ViewportTexture" id=167]
+viewport_path = NodePath("Viewport59")
+
+[sub_resource type="ViewportTexture" id=168]
+viewport_path = NodePath("Viewport60")
+
+[sub_resource type="ViewportTexture" id=169]
+viewport_path = NodePath("Viewport61")
+
+[sub_resource type="ViewportTexture" id=170]
+viewport_path = NodePath("Viewport62")
+
+[sub_resource type="ViewportTexture" id=171]
+viewport_path = NodePath("Viewport63")
+
+[sub_resource type="ViewportTexture" id=172]
+viewport_path = NodePath("Viewport64")
+
+[sub_resource type="ViewportTexture" id=173]
+viewport_path = NodePath("Viewport65")
+
+[sub_resource type="ViewportTexture" id=181]
+viewport_path = NodePath("Sprite3D66/Viewport66")
+
+[sub_resource type="ViewportTexture" id=175]
+viewport_path = NodePath("Sprite3D67/Viewport67")
+
+[sub_resource type="ViewportTexture" id=178]
+viewport_path = NodePath("Sprite3D68/Viewport68")
+
+[sub_resource type="ViewportTexture" id=179]
+viewport_path = NodePath("Sprite3D69/Viewport69")
+
+[sub_resource type="ViewportTexture" id=180]
+viewport_path = NodePath("Sprite3D70/Viewport70")
+
+[sub_resource type="ViewportTexture" id=186]
+viewport_path = NodePath("Sprite3D71/Viewport71")
+
+[sub_resource type="ViewportTexture" id=217]
+viewport_path = NodePath("Viewport72")
+
+[sub_resource type="ViewportTexture" id=189]
+viewport_path = NodePath("Viewport73")
+
+[sub_resource type="ViewportTexture" id=190]
+viewport_path = NodePath("Viewport74")
+
+[sub_resource type="ViewportTexture" id=191]
+viewport_path = NodePath("Viewport75")
+
+[sub_resource type="ViewportTexture" id=193]
+viewport_path = NodePath("Viewport76")
+
+[sub_resource type="ViewportTexture" id=194]
+viewport_path = NodePath("Viewport77")
+
+[sub_resource type="ViewportTexture" id=195]
+viewport_path = NodePath("Viewport78")
+
+[sub_resource type="ViewportTexture" id=196]
+viewport_path = NodePath("Viewport79")
+
+[sub_resource type="ViewportTexture" id=197]
+viewport_path = NodePath("Viewport80")
+
+[sub_resource type="ViewportTexture" id=198]
+viewport_path = NodePath("Viewport81")
+
+[sub_resource type="ViewportTexture" id=199]
+viewport_path = NodePath("Viewport82")
+
+[sub_resource type="ViewportTexture" id=201]
+viewport_path = NodePath("Viewport83")
+
+[sub_resource type="ViewportTexture" id=202]
+viewport_path = NodePath("Viewport84")
+
+[sub_resource type="ViewportTexture" id=203]
+viewport_path = NodePath("Viewport85")
+
+[sub_resource type="ViewportTexture" id=204]
+viewport_path = NodePath("Viewport86")
+
+[sub_resource type="ViewportTexture" id=205]
+viewport_path = NodePath("Viewport87")
+
+[sub_resource type="ViewportTexture" id=208]
+viewport_path = NodePath("Viewport88")
+
+[sub_resource type="ViewportTexture" id=209]
+viewport_path = NodePath("Viewport89")
+
+[sub_resource type="ViewportTexture" id=210]
+viewport_path = NodePath("Viewport90")
+
+[sub_resource type="ViewportTexture" id=211]
+viewport_path = NodePath("Viewport91")
+
+[node name="pyramid" type="Spatial"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.8, 0, 7.9 )
+
+[node name="archaeologist" parent="." instance=ExtResource( 1 )]
+transform = Transform( -4.37118e-08, 0.339395, -0.940653, 0, 0.940644, 0.339398, 1.00001, 1.48354e-08, -4.11173e-08, 95.438, 44.2191, -0.417488 )
+
+[node name="Camera" type="Camera" parent="archaeologist"]
+transform = Transform( 0.99999, 1.52335e-08, 2.59269e-09, -1.33796e-08, 0.937513, -0.34795, -7.73118e-09, 0.347947, 0.937504, 0.0102844, 0.0672531, 0.47757 )
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( -0.944756, -0.228787, 0.234718, 0.318511, -0.471763, 0.822187, -0.0773745, 0.851526, 0.518572, -0.485908, 118.81, -7.65916 )
+light_specular = 1.0
+
+[node name="CSGCombiner" type="CSGCombiner" parent="."]
+use_collision = true
+
+[node name="subterraneanChamber" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.85346, 1.69272, -7.02335 )
+invert_faces = true
+width = 8.25
+height = 3.4
+depth = 14.05
+material = SubResource( 15 )
+
+[node name="lesserSubChamberPassage" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.684, 0.534, -0.5 )
+invert_faces = true
+width = 8.9
+height = 1.04
+depth = 1.0
+material = SubResource( 27 )
+
+[node name="lesserSubChamber" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.387578, 0.521315, -1.47686 )
+invert_faces = true
+width = 1.86
+height = 1.0
+depth = 1.0
+material = SubResource( 17 )
+
+[node name="deadEndPassage" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -18.175, 0.4, -0.37 )
+invert_faces = true
+width = 16.4
+height = 0.762
+depth = 0.762
+material = SubResource( 18 )
+
+[node name="bottomlessPit" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.692156, 0, -0.721748, 0, 1, 0, 0.721748, 0, 0.692156, -5.939, -15.75, -1.949 )
+invert_faces = true
+height = 31.5
+material = SubResource( 19 )
+
+[node name="subterraneanPassage" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.895479, -0.445104, 0, 0.445104, 0.895479, 0, 0, 0, 1, 39.12, 16.55, -0.5 )
+invert_faces = true
+width = 72.0
+height = 1.2
+depth = 1.0
+material = SubResource( 20 )
+
+[node name="descendingPassage" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.895479, -0.445104, 0, 0.445104, 0.895479, 0, 0, 0, 1, 83.5, 38.61, -0.499 )
+invert_faces = true
+width = 28.0
+height = 1.2
+depth = 1.0
+material = SubResource( 21 )
+
+[node name="ascendingPassage" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.897601, 0.43973, 0, -0.43973, 0.897601, 0, 0, 0, 1, 52.4, 41.65, -0.5 )
+invert_faces = true
+width = 39.3
+height = 1.2
+depth = 1.0
+material = SubResource( 22 )
+
+[node name="ascendingPassageJoint1" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0.86, 0.534, 0, -0.534, 0.846, 0, 0, 0, 1, 69.7, 32.54, 0 )
+invert_faces = true
+polygon = PoolVector2Array( 0.0520782, -0.0757294, -0.0601311, 1.10626, 1.2, 1 )
+material = SubResource( 84 )
+
+[node name="ascendingPassageJoint2" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0.898, 0.44, 0, -0.44, 0.898, 0, 0.02, 0, 1, 34, 50, 0.03 )
+invert_faces = true
+polygon = PoolVector2Array( 0.0324345, 1.07628, 0.568796, 1.19889, 0.556898, 0.0110893 )
+depth = 1.04
+material = SubResource( 41 )
+
+[node name="grandGalleryA" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+calculate_tangents = false
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 2.28, 2, 2.28, 2, 0 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryB" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+invert_faces = true
+polygon = PoolVector2Array( 0.08, 2.28, 0.08, 3.29, 1.92, 3.29, 1.92, 2.28 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryC" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+invert_faces = true
+polygon = PoolVector2Array( 0.16, 3.29, 0.16, 4.22, 1.84, 4.22, 1.84, 3.29 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryD" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+invert_faces = true
+polygon = PoolVector2Array( 0.24, 4.22, 0.24, 4.51, 1.76, 4.51, 1.76, 4.22 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryE" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+invert_faces = true
+polygon = PoolVector2Array( 0.16, 4.51, 0.16, 4.61, 1.84, 4.61, 1.84, 4.51 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryF" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+invert_faces = true
+polygon = PoolVector2Array( 0.16, 4.61, 0.16, 4.63, 1.84, 4.63, 1.84, 4.61 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryG" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+invert_faces = true
+polygon = PoolVector2Array( 0.32, 4.63, 0.32, 5.38, 1.68, 5.38, 1.68, 4.63 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryH" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+invert_faces = true
+polygon = PoolVector2Array( 0.4, 5.38, 0.4, 6.23, 1.6, 6.23, 1.6, 5.38 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryI" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+invert_faces = true
+polygon = PoolVector2Array( 0.48, 6.23, 0.48, 7.08, 1.52, 7.08, 1.52, 6.23 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryJ" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, -7.6, 70.6, -1.5 )
+invert_faces = true
+polygon = PoolVector2Array( 0.56, 7.08, 0.56, 7.93, 1.44, 7.93, 1.44, 7.08 )
+depth = 29.78
+material = SubResource( 86 )
+
+[node name="grandGalleryBridSlabSupportEastA" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 33.097, 50.216, 0.099 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="grandGalleryBridSlabSupportEastB" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.825, 50.35, 0.099 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="grandGalleryBridSlabSupportEastC" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.563, 50.481, 0.099 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="grandGalleryBridSlabSupportEastD" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.321, 50.598, 0.099 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="grandGalleryBridSlabSupportEastE" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.091, 50.713, 0.099 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="grandGalleryBridSlabSupportWestA" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 33.097, 50.2165, -0.993 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="grandGalleryBridSlabSupportWestB" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.825, 50.35, -0.993 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="grandGalleryBridSlabSupportWestC" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.5633, 50.4813, -0.993 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="grandGalleryBridSlabSupportWestD" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.321, 50.598, -0.993 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="grandGalleryBridSlabSupportWestE" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 32.091, 50.7134, -0.993 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0, 0.23, 0.1, 0.18, 0.1, 0 )
+depth = 0.1
+material = SubResource( 207 )
+
+[node name="AlMaMunForcedPassage1" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1.005, 0, 0.035, 0, 1, 0, -0.02, 0, 0.999, 80.15, 34, -4.88 )
+invert_faces = true
+width = 27.0
+depth = 1.04
+material = SubResource( 13 )
+
+[node name="AlMaMunForcedPassage2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.572146, 0, 0.820152, 0, 1, 0, -0.820152, 0, 0.572146, 65.85, 34, -3.33 )
+invert_faces = true
+width = 3.8
+depth = 0.9
+material = SubResource( 24 )
+
+[node name="AlMaMunForcedPassage3" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1.91069e-15, 4.37114e-08, 1, 1, -4.37114e-08, 0, 4.37114e-08, 1, -4.37114e-08, 66, 34, -1.51 )
+invert_faces = true
+height = 1.04
+depth = 3.2
+material = SubResource( 25 )
+
+[node name="AlMaMunForcedPassage4" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1.91069e-15, 4.37114e-08, 1, 1, -4.37114e-08, 0, 4.37114e-08, 1, -4.37114e-08, 68, 32.4, -1.51 )
+invert_faces = true
+width = 2.3
+height = 1.04
+depth = 1.0
+material = SubResource( 26 )
+
+[node name="QueensChamberPassage1" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 17.9, 50.353, -0.5 )
+invert_faces = true
+width = 33.2
+height = 1.2
+depth = 1.0
+material = SubResource( 33 )
+
+[node name="QueensChamberPassage2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.265, 50.1, -0.5 )
+invert_faces = true
+width = 5.51
+height = 1.68
+depth = 1.0
+material = SubResource( 33 )
+
+[node name="QueensChamber" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.635, 51.585, -2.879 )
+invert_faces = true
+width = 5.24
+height = 4.65
+depth = 5.76
+material = SubResource( 15 )
+
+[node name="QueensChamber2" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.251, 53.91, 0 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 2.62, 1.57, 5.23, 0 )
+depth = 5.76
+material = SubResource( 112 )
+
+[node name="statueNicheA" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.21328, 50.133, 0.522008 )
+invert_faces = true
+width = 1.57
+height = 1.744
+depth = 1.046
+material = SubResource( 113 )
+
+[node name="statueNicheB" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.21328, 51.441, 0.522008 )
+invert_faces = true
+width = 1.31
+height = 0.872
+depth = 1.046
+material = SubResource( 113 )
+
+[node name="statueNicheC" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.21328, 52.226, 0.522008 )
+invert_faces = true
+width = 1.05
+height = 0.698
+depth = 1.046
+material = SubResource( 113 )
+
+[node name="statueNicheD" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.21328, 52.924, 0.522008 )
+invert_faces = true
+width = 0.78
+height = 0.698
+depth = 1.046
+material = SubResource( 113 )
+
+[node name="statueNicheE" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.213, 53.621, 0.522 )
+invert_faces = true
+width = 0.52
+height = 0.698
+depth = 1.046
+material = SubResource( 113 )
+
+[node name="statueNichePassageA" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.213, 50.46, 1.575 )
+invert_faces = true
+width = 1.04
+height = 1.04
+depth = 1.06
+material = SubResource( 115 )
+
+[node name="statueNiche PassageB" type="CSGCylinder" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -6.23896, 50.4658, 3.76068 )
+invert_faces = true
+radius = 0.6
+height = 3.49862
+material = SubResource( 116 )
+
+[node name="statueNiche PassageC" type="CSGCylinder" parent="CSGCombiner"]
+transform = Transform( 0.939693, 0.34202, -1.49502e-08, 0, -4.37114e-08, -1, -0.34202, 0.939693, -4.10753e-08, -5.65, 50.465, 6.9 )
+invert_faces = true
+radius = 0.6
+height = 3.49862
+material = SubResource( 116 )
+
+[node name="QueenShaftSouthA" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.04, 50.275, -2.743 )
+invert_faces = true
+width = 1.57
+height = 0.2
+depth = 0.2
+material = SubResource( 118 )
+
+[node name="QueenShaftSouthB" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -67.148, 95.326, -2.64 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0.124, 0.157, 57.327, -44.9544, 57.327, -45.149 )
+depth = 0.2
+material = SubResource( 120 )
+
+[node name="QueenShaftNorthA" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1.02543, 0, 0, 0, 1, -2.231, 50.275, -2.743 )
+invert_faces = true
+width = 1.57
+height = 0.2
+depth = 0.2
+material = SubResource( 118 )
+
+[node name="QueenShaftNorthB" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( -0.137083, 0, -1.19842e-08, 0, 0.136201, 0, 8.74228e-08, 0, -1, 6.515, 56.485, -2.844 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0.0427322, 1.34952, 58.081, -44.8441, 58.0857, -46.3191 )
+depth = 0.2
+material = SubResource( 120 )
+
+[node name="QueenShaftNorthB2" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( -0.137083, 0, -1.19842e-08, 0, 0.136201, 0, 8.74228e-08, 0, -1, 6.515, 56.485, -2.844 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0.0427322, 1.34952, 58.081, -44.8441, 58.0857, -46.3191 )
+depth = 0.2
+material = SubResource( 120 )
+
+[node name="QueenShaftNorthC" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( -0.134417, 0, -0.239059, 0, 0.13971, 0, 0.0330932, 0, -0.971005, 14, 62.6, -4.717 )
+invert_faces = true
+polygon = PoolVector2Array( -0.036438, 0.275757, 0.0614319, 2.15863, 56.4545, -42.8034, 56.2107, -44.117 )
+depth = 0.2
+material = SubResource( 120 )
+
+[node name="QueenShaftNorthD" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( -0.139489, 0, 0.205231, 0, 0.137555, 0, -0.02925, 0, -0.978714, 22.6075, 68.864, -2.94 )
+invert_faces = true
+polygon = PoolVector2Array( 0.393616, 0.798431, 0.64798, 2.76779, 61.8302, -43.5326, 61.8371, -45.3593 )
+depth = 0.2
+material = SubResource( 120 )
+
+[node name="QueenShaftNorthE" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( -0.579923, 0, -5.06985e-08, 0, 0.581074, 0, 8.74228e-08, 0, -1, 55.687, 95.137, -2.94 )
+invert_faces = true
+polygon = PoolVector2Array( -0.0318756, -0.0499725, 0.165466, 0.233627, 57.3052, -44.635, 57.327, -45.149 )
+depth = 0.2
+material = SubResource( 120 )
+
+[node name="KingsChamberPassage1" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.3, 71.16, -0.516 )
+invert_faces = true
+width = 1.412
+height = 1.12
+depth = 1.04
+material = SubResource( 18 )
+
+[node name="KingsChamberPassage2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.524, 71.162, -0.517 )
+invert_faces = true
+width = 2.73
+height = 1.12
+depth = 1.04
+material = SubResource( 18 )
+
+[node name="KingsChamber" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 73.527, -5.238 )
+invert_faces = true
+width = 5.24
+height = 5.85
+depth = 10.48
+material = SubResource( 135 )
+
+[node name="CavigliaExcavationA" type="CSGCylinder" parent="CSGCombiner"]
+transform = Transform( 0.708463, 0, 0, 0, -3.27483e-08, -0.749193, 0, 1, -4.37114e-08, -8.52391, 71.044, -1.42366 )
+invert_faces = true
+radius = 0.6
+height = 0.797
+sides = 16
+material = SubResource( 116 )
+
+[node name="CavigliaExcavationB" type="CSGCylinder" parent="CSGCombiner"]
+transform = Transform( 0.651086, -0.332605, 0.158559, 0, -0.536843, -0.632081, 0.174271, 0.48379, -0.230632, -8.01993, 71.8326, -2.39818 )
+invert_faces = true
+radius = 0.6
+height = 2.971
+sides = 16
+material = SubResource( 116 )
+
+[node name="CavigliaExcavationC" type="CSGCylinder" parent="CSGCombiner"]
+transform = Transform( 0.651086, -0.332605, 0.158559, -0.223239, -0.942346, -0.0844124, 0.167844, 0.0368575, -0.72734, -7.21358, 73.6064, -2.88606 )
+invert_faces = true
+radius = 0.6
+height = 2.971
+sides = 16
+material = SubResource( 116 )
+
+[node name="KingsChamberLimestoneBeamA2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 78.68, -5.238 )
+invert_faces = true
+width = 5.24
+height = 0.936
+depth = 10.48
+material = SubResource( 161 )
+
+[node name="KingsChamberLimestoneBeamB2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 81.37, -5.238 )
+invert_faces = true
+width = 5.24
+height = 0.936
+depth = 10.48
+material = SubResource( 161 )
+
+[node name="KingsChamberLimestoneBeamC2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 84.056, -5.238 )
+invert_faces = true
+width = 5.24
+height = 0.936
+depth = 10.48
+material = SubResource( 161 )
+
+[node name="KingsChamberLimestoneBeamD2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 86.746, -5.238 )
+invert_faces = true
+width = 5.24
+height = 0.936
+depth = 10.48
+material = SubResource( 161 )
+
+[node name="KingsChamberLimestoneBeamE2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 2.30971, 0, 0, 0, 1, -17.48, 90.0621, -5.238 )
+invert_faces = true
+width = 5.24
+height = 0.936
+depth = 10.48
+material = SubResource( 161 )
+
+[node name="RelieveChamberForcePassage1" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.39183, 0, 0, 0, 0.263648, 0, 0, 0, 0.951486, -7.50028, 78.2788, 0.0297561 )
+width = 0.5
+height = 0.5
+depth = 0.2
+material = SubResource( 161 )
+
+[node name="RelieveChamberForcePassage2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1.01483, 0, 0, 0, 0.263648, 0, 0, 0, 0.893182, -11.23, 78.28, 0.027 )
+width = 7.16
+height = 0.5
+depth = 0.2
+material = SubResource( 161 )
+
+[node name="RelieveChamberForcePassage3" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.39183, 0, 0, 0, 0.263648, 0, 0, 0, 1.26289, -14.7738, 83.7356, -0.0513668 )
+width = 0.5
+height = 42.0
+depth = 0.2
+material = SubResource( 161 )
+
+[node name="KingShaftSouthA" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -20.88, 71.515, -2.74 )
+invert_faces = true
+width = 1.57
+height = 0.14
+depth = 0.18
+material = SubResource( 118 )
+
+[node name="KingShaftSouthB" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -76.67, 126.431, -2.65 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0.124, 0.157, 55.0061, -54.8473, 55.0067, -54.9876 )
+depth = 0.18
+material = SubResource( 120 )
+
+[node name="KingShaftNorthA1" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1.02543, 0, 0, 0, 1, -14.075, 71.515, -2.74 )
+invert_faces = true
+width = 1.57
+height = 0.14
+depth = 0.21
+material = SubResource( 118 )
+
+[node name="KingShaftNorthA2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.868399, -0.496518, 0.116257, 0.484979, 0.896114, -8.34724e-12, -0.0773497, 0.0442257, 1.30521, -10.45, 73.125, -3.01 )
+invert_faces = true
+width = 6.63
+height = 0.14
+depth = 0.16
+material = SubResource( 118 )
+
+[node name="KingShaftNorthA3" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.727553, -0.696044, 0.112897, 0.676191, 0.717195, -0.297184, 0.0934644, 0.229479, 1.27123, -5.67, 76.505, -3.01 )
+invert_faces = true
+width = 5.26
+height = 0.14
+depth = 0.16
+material = SubResource( 118 )
+
+[node name="KingShaftNorthB" type="CSGPolygon" parent="CSGCombiner"]
+transform = Transform( -6.22653e-08, -1.42446, 0, 1.00827, -4.4073e-08, 0, 0, 0, 1, -3.73, 78.2, -2.65 )
+invert_faces = true
+polygon = PoolVector2Array( 0, 0, 0.124, 0.157, 48.006, -47.847, 47.9013, -47.8779 )
+depth = 0.21
+material = SubResource( 120 )
+
+[node name="anteChamberPortcullis" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.58, 72.048, -0.515 )
+invert_faces = true
+width = 3.16
+height = 2.89
+depth = 1.49
+material = SubResource( 135 )
+
+[node name="anteChamberDent" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.534388, 0.654873, -0.534388, -0.463065, 0.755739, 0.463065, 0.792227, 1.42109e-14, 0.792227, -12.0592, 71.7901, -0.521075 )
+invert_faces = true
+width = 0.65
+height = 1.04
+depth = 0.65
+
+[node name="wellShaftA" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 0.811321, 0, 0, 0, 1, 33.5206, 50.2763, -1.24573 )
+invert_faces = true
+width = 0.5
+height = 2.5
+depth = 0.5
+material = SubResource( 200 )
+
+[node name="wellShaftB" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, -3.5464e-08, -1, 0, 0.811321, -4.37114e-08, 33.52, 49.513, -2.078 )
+invert_faces = true
+width = 0.5
+height = 1.5
+depth = 0.5
+material = SubResource( 200 )
+
+[node name="wellShaftC" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 0.811321, 0, 0, 0, 1, 33.521, 46.23, -2.436 )
+invert_faces = true
+width = 0.5
+height = 7.5
+depth = 0.5
+material = SubResource( 200 )
+
+[node name="wellShaftD" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 0.914183, 0.328829, 0, -0.405301, 0.741696, 0, 0, 0, 1, 32.22, 40.33, -2.43721 )
+invert_faces = true
+width = 0.5
+height = 8.0
+depth = 0.5
+material = SubResource( 200 )
+
+[node name="wellShaftE" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( 1, 0, 0, 0, 0.811321, 0, 0, 0, 1, 30.93, 34.215, -2.442 )
+invert_faces = true
+width = 0.5
+height = 8.0
+depth = 0.5
+material = SubResource( 200 )
+
+[node name="grotto1" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( -2.99408e-08, -0.555726, 0, 4.30795, -1.52777e-07, 0, 0, 0, 3.21683, 28.2297, 33.8828, -2.442 )
+invert_faces = true
+width = 0.5
+height = 8.0
+depth = 0.5
+material = SubResource( 200 )
+
+[node name="grotto2" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( -1.60721e-08, -0.298311, 0, 4.09261, -1.4514e-07, 0, 0, 0, 1.74528, 28.6865, 31.9176, -2.442 )
+invert_faces = true
+width = 0.5
+height = 8.0
+depth = 0.5
+material = SubResource( 200 )
+
+[node name="grottoPassage" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( -3.51849e-08, -0.653062, 0, 0.855425, -3.03368e-08, 0, 0, 0, 1, 30.5755, 33.8762, -2.442 )
+invert_faces = true
+width = 0.5
+height = 0.5
+depth = 0.5
+material = SubResource( 200 )
+
+[node name="wellShaftF" type="CSGCylinder" parent="CSGCombiner"]
+transform = Transform( 0.707107, 0.573691, 0, -0.707107, 0.573691, 0, 0, 0, 1, 23.82, 24.01, -2.441 )
+invert_faces = true
+radius = 0.3
+height = 25.0
+sides = 16
+material = SubResource( 200 )
+
+[node name="wellShaftG" type="CSGCylinder" parent="CSGCombiner"]
+transform = Transform( 0.941188, 0.274132, 0, -0.337884, 0.763606, 0, 0, 0, 1, 14.1058, 9.58009, -2.442 )
+invert_faces = true
+radius = 0.3
+height = 19.5
+sides = 16
+material = SubResource( 200 )
+
+[node name="wellShaftH" type="CSGBox" parent="CSGCombiner"]
+transform = Transform( -0.000335364, -0.021123, -0.999661, -0.957683, 0.233446, -0.00717252, 0.287824, 0.776723, -0.02503, 11.5309, 2.62, -1.61273 )
+invert_faces = true
+width = 0.8
+depth = 0.8
+material = SubResource( 200 )
+
+[node name="granitePlug1" type="CSGBox" parent="."]
+transform = Transform( 0.898027, 0.439939, 0, -0.439939, 0.898027, 0, 0, 0, 1, 69.4, 33.31, -0.5 )
+use_collision = true
+width = 1.42
+height = 1.2
+depth = 1.0
+material = SubResource( 29 )
+
+[node name="granitePlug2" type="CSGBox" parent="."]
+transform = Transform( 0.898027, 0.439939, 0, -0.439939, 0.898027, 0, 0, 0, 1, 68, 34, -0.5 )
+use_collision = true
+width = 1.67
+height = 1.2
+depth = 1.0
+material = SubResource( 29 )
+
+[node name="granitePlug3" type="CSGBox" parent="."]
+transform = Transform( 0.898027, 0.439939, 0, -0.439939, 0.898027, 0, 0, 0, 1, 66.8, 34.6, -0.5 )
+use_collision = true
+width = 1.0
+height = 1.2
+depth = 1.0
+material = SubResource( 29 )
+
+[node name="fallenConcealedBlock" type="CSGPolygon" parent="."]
+transform = Transform( 0.883766, 0.46793, 0, -0.46793, 0.883766, 0, 0, 0, 1, 70.5, 31.73, 0 )
+use_collision = true
+polygon = PoolVector2Array( 0, 0, 0, 1, 1, 1, 0.282802, -0.00339839 )
+material = SubResource( 28 )
+
+[node name="grandGalleryRampShelfEast" type="CSGPolygon" parent="."]
+transform = Transform( 0, 0, 1, 0, 1, -0.495, -1, 0, 0, 34.51, 49.75, 0.496 )
+use_collision = true
+polygon = PoolVector2Array( 0, 0, 0, 0.568, 0.5, 0.568, 0.5, 0 )
+depth = 40.49
+material = SubResource( 92 )
+
+[node name="slot1" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0010004, 0.389008, -0.00500107 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot2" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -1.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot3" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -3.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot4" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -4.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot5" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -6.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot6" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -7.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot7" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -9.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot8" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -10.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot9" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -12.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot10" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -13.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot11" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -15.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot12" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -16.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot13" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -18.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot14" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -19.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot15" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -21.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot16" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -22.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot17" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -24.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot18" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -25.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot19" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -27.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot20" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -28.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot21" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -30.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot22" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -31.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot23" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -33.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot24" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -34.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot25" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -36.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot26" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -37.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot27" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -39.005 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot28" type="CSGPolygon" parent="grandGalleryRampShelfEast"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, 0.389, -40.505 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="grandGalleryRampShelfEast1" type="CSGBox" parent="."]
+transform = Transform( 0.896254, 0.443541, 0, -0.443541, 0.896254, 0, 0, 0, 1, 14.26, 60.06, 0.25 )
+visible = false
+operation = 2
+use_collision = true
+width = 44.89
+height = 0.5
+depth = 0.5
+material = SubResource( 89 )
+
+[node name="grandGalleryRampShelfEast2" type="CSGPolygon" parent="."]
+transform = Transform( 0.276824, 0, 0, 0, 0.528756, 0, 0, 0, 1, -5.975, 69.795, 0.5 )
+visible = false
+use_collision = true
+polygon = PoolVector2Array( 0.022, -0.009, -0.0178156, 1.07323, 0.843985, 0.835098 )
+depth = 0.5
+material = SubResource( 90 )
+
+[node name="grandGalleryRampShelfEast3" type="CSGPolygon" parent="."]
+transform = Transform( 0.276824, 0, 0, 0, 0.528756, 0, 0, 0, 1, 34.495, 50.32, 0.5 )
+visible = false
+use_collision = true
+polygon = PoolVector2Array( -0.022, 0.009, 0.018, -1.073, -0.844, -0.835 )
+depth = 0.5
+material = SubResource( 90 )
+
+[node name="grandGalleryRampShelfWestA" type="CSGPolygon" parent="."]
+transform = Transform( 0, 0, 1, 0, 1, -0.495, -1, 0, 0, 33.2748, 50.3676, -0.994 )
+use_collision = true
+polygon = PoolVector2Array( 0, 0, 0, 0.568, 0.5, 0.568, 0.5, 0 )
+depth = 39.25
+material = SubResource( 92 )
+
+[node name="slot1" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, 1.2302 )
+visible = false
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot2" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -0.269798 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot3" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -1.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot4" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -3.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot5" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -4.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot6" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -6.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot7" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -7.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot8" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -9.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot9" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -10.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot10" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -12.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot11" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -13.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot12" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -15.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot13" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -16.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot14" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -18.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot15" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -19.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot16" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -21.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot17" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -22.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot18" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -24.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot19" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -25.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot20" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -27.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot21" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -28.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot22" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -30.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot23" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -31.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot24" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -33.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot25" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -34.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot26" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -36.2698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="slot27" type="CSGPolygon" parent="grandGalleryRampShelfWestA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.389, -37.7698 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="grandGalleryRampShelfWestB" type="CSGPolygon" parent="."]
+transform = Transform( 0, 0, 1, 0, 1, -0.495, -1, 0, 0, 34.51, 49.75, -0.994 )
+use_collision = true
+polygon = PoolVector2Array( 0, 0, 0, 0.568, 0.5, 0.568, 0.5, 0 )
+depth = 0.75
+material = SubResource( 92 )
+
+[node name="slot1" type="CSGPolygon" parent="grandGalleryRampShelfWestB"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.359, 0.38884, -0.00447845 )
+operation = 2
+polygon = PoolVector2Array( 0, 0, 0, 0.18, 0.14, 0.18, 0.14, 0 )
+depth = 0.55
+material = SubResource( 91 )
+
+[node name="grandGalleryRampShelfWest1" type="CSGBox" parent="."]
+transform = Transform( 0.896254, 0.443541, 0, -0.443541, 0.896254, 0, 0, 0, 1, 14.26, 60.06, -1.235 )
+visible = false
+operation = 2
+use_collision = true
+width = 44.89
+height = 0.5
+depth = 0.5
+material = SubResource( 89 )
+
+[node name="grandGalleryRampShelfWest2" type="CSGPolygon" parent="."]
+transform = Transform( 0.276824, 0, 0, 0, 0.528756, 0, 0, 0, 1, -5.975, 69.795, -1 )
+visible = false
+use_collision = true
+polygon = PoolVector2Array( 0.022, -0.009, -0.0178156, 1.07323, 0.843985, 0.835098 )
+depth = 0.5
+material = SubResource( 90 )
+
+[node name="grandGalleryRampShelfWest3" type="CSGPolygon" parent="."]
+transform = Transform( 0.276824, 0, 0, 0, 0.528756, 0, 0, 0, 1, 34.495, 50.32, -1 )
+visible = false
+use_collision = true
+polygon = PoolVector2Array( -0.022, 0.009, 0.018, -1.073, -0.844, -0.835 )
+depth = 0.5
+material = SubResource( 90 )
+
+[node name="grandGalleryBridgingSlab" type="CSGPolygon" parent="."]
+transform = Transform( 0, 0, -1.414, 0, 1, 0.7, 1, 0, 0, 32.084, 50.95, -1 )
+polygon = PoolVector2Array( 0, 0, 0, 0.01, 1, 0.01, 1, 0 )
+depth = 1.71
+material = SubResource( 182 )
+
+[node name="grandGalleryWestNiche3" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 31.2192, 52.1194, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="grandGalleryWestNiche4" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 29.711, 52.836, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche4"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche5" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 28.2109, 53.5653, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche5"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche6" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 26.7167, 54.3005, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche6"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche7" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 25.2166, 55.0476, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche7"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche8" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 23.7157, 55.8194, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche8"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche9" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 22.2156, 56.5487, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche9"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche10" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 20.7214, 57.2839, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche10"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche11" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 19.2213, 58.031, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche11"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche12" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 17.7438, 58.7754, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche12"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche13" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 16.2436, 59.5047, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche13"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche14" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 14.7495, 60.24, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche14"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche15" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 13.2494, 60.9871, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche15"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche16" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 11.7485, 61.7588, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche16"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche17" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 10.2483, 62.4881, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche17"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche18" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 8.82376, 63.2264, -1.48544 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche18"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche19" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 7.27087, 63.9915, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche19"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche20" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 5.7936, 64.7406, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche20"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche21" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 4.29348, 65.4877, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche21"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche22" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 2.81596, 66.2321, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche22"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche23" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 1.31584, 66.9614, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche23"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche24" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, -0.178336, 67.6966, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche24"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche25" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, -1.67845, 68.4437, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche25"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche26" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, -3.24235, 69.1682, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche26"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryWestNiche27" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, -4.77397, 69.929, -1.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryWestNiche27"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, 0, -0.142147, -0.620155 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche3" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 31.2192, 52.1194, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="grandGalleryEastNiche4" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 29.711, 52.836, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche4"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche5" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 28.2109, 53.5653, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche5"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche6" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 26.7167, 54.3005, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche6"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche7" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 25.2166, 55.0476, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche7"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche8" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 23.7157, 55.8194, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche8"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche9" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 22.2156, 56.5487, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche9"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche10" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 20.7214, 57.2839, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche10"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche11" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 19.2213, 58.031, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche11"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche12" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 17.7438, 58.7754, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche12"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche13" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 16.2436, 59.5047, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche13"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche14" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 14.7495, 60.24, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche14"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche15" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 13.2494, 60.9871, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche15"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche16" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 11.7485, 61.7588, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche16"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche17" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 10.2483, 62.4881, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche17"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche18" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 8.8, 63.23, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche18"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche19" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 7.254, 63.97, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche19"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche20" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 5.7936, 64.7406, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche20"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.008, -0.142, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche21" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 4.29348, 65.4877, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche21"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche22" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 2.81596, 66.2321, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche22"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche23" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, 1.31584, 66.9614, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche23"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche24" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, -0.178336, 67.6966, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche24"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche25" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, -1.67845, 68.4437, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche25"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche26" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, -3.24235, 69.1682, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche26"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grandGalleryEastNiche27" type="CSGBox" parent="."]
+transform = Transform( -2.86672e-08, 0, -0.655829, 0, 0.888978, 0, 1.00001, 0, -4.37118e-08, -4.77397, 69.929, 0.497 )
+width = 0.01
+height = 0.6
+depth = 0.32
+material = SubResource( 184 )
+
+[node name="trapezoidalCuttings" type="CSGPolygon" parent="grandGalleryEastNiche27"]
+transform = Transform( -3.73859e-08, 0, -0.999999, 0, 1, 0, 1.14471, 0, -5.63622e-08, -0.007, -0.142147, -0.67 )
+polygon = PoolVector2Array( 0.202003, -0.127621, 0.213722, -0.0138054, 0.864174, 0.268272, 0.846596, 0.154449 )
+depth = 0.01
+material = SubResource( 185 )
+
+[node name="grooveUse1" type="CSGBox" parent="."]
+transform = Transform( 0.0197284, 0.00942972, 0, -0.00966483, 0.0192484, 0, 0, 0, 1, 30.491, 56.265, -0.488 )
+width = 0.87
+height = 0.87
+depth = 1.6
+material = SubResource( 158 )
+
+[node name="grooveUse2" type="CSGBox" parent="."]
+transform = Transform( 0.0197284, 0.00942972, 1.19209e-07, 1.49515e-09, -2.49191e-09, -2.86493, -0.00966483, 0.0192484, -4.37114e-08, 30.49, 54, -0.502 )
+width = 0.87
+height = 0.87
+depth = 1.575
+material = SubResource( 158 )
+
+[node name="grooveUse3" type="CSGBox" parent="."]
+transform = Transform( 0.898028, 0.439939, 0, -0.439939, 0.898028, 0, 0, 0, 1, 30.5089, 51.7973, -0.508898 )
+width = 0.5
+height = 0.08
+depth = 0.5
+material = SubResource( 160 )
+
+[node name="greatStep" type="CSGPolygon" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.6, 69.8, 0.5 )
+use_collision = true
+polygon = PoolVector2Array( 0, 0.8, 1.625, 0.8, 1.625, 0 )
+depth = 2.0
+material = SubResource( 87 )
+
+[node name="greatStep2" type="CSGBox" parent="greatStep"]
+transform = Transform( 0.297839, -0.563165, -0.287922, 0.264083, 0.520681, -0.255289, 0.664046, 0, 0.68692, 1.63892, 0.933121, -0.955731 )
+operation = 2
+width = 1.0
+height = 1.0
+depth = 1.0
+material = SubResource( 94 )
+
+[node name="slot28West1" type="CSGBox" parent="greatStep"]
+transform = Transform( 0, 0, 4.18232, 0, 0.930755, 0.00465377, -0.24924, 0, 0, 0.30162, 0.719795, -1.93108 )
+operation = 2
+width = 0.55
+height = 0.18
+depth = 0.14
+
+[node name="slot28West2" type="CSGBox" parent="greatStep"]
+transform = Transform( 0, 0, 4.18232, 0, 0.930755, 0.00465377, -0.24924, 0, 0, 0.302, 0.72, -0.072 )
+operation = 2
+width = 0.55
+height = 0.18
+depth = 0.141684
+
+[node name="QueensChamberRoof1" type="CSGPolygon" parent="."]
+transform = Transform( 1.25276, 0, 0, 0, 1.556, 0, 0, 0, 2.64858, -9.83, 53, 0 )
+polygon = PoolVector2Array( 0.684119, 0.297173, 0.0498729, 1.09296, 3.38376, 2.69074, 3.36844, 1.58241 )
+depth = 2.18
+material = SubResource( 114 )
+
+[node name="QueensChamberRoof2" type="CSGPolygon" parent="."]
+transform = Transform( 1.25276, 0, 0, 0, 1.556, 0, 0, 0, 2.64858, -9.707, 54.86, 0 )
+polygon = PoolVector2Array( 0.65999, 0.236984, 0.0710371, 1.00837, 3.29792, 2.55247, 3.2846, 1.48928 )
+depth = 2.18
+material = SubResource( 114 )
+
+[node name="QueensChamberRoof3" type="CSGPolygon" parent="."]
+transform = Transform( -1.253, 0, 0, 0, 1.556, 0, 0, 0, -2.649, -1.304, 54.813, -5.77 )
+polygon = PoolVector2Array( 0.690665, 0.197281, 0.0710371, 1.00837, 3.40902, 2.58268, 3.43461, 1.51109 )
+depth = 2.18
+material = SubResource( 114 )
+
+[node name="QueensChamberRoof4" type="CSGPolygon" parent="."]
+transform = Transform( -1.25276, 0, -2.31546e-07, 0, 1.556, 0, 1.0952e-07, 0, -2.64858, -1.366, 52.88, -5.77 )
+polygon = PoolVector2Array( 0.690666, 0.375324, 0.0272474, 1.16663, 3.38813, 2.76902, 3.40804, 1.64589 )
+depth = 2.18
+material = SubResource( 114 )
+
+[node name="shaftSouthDoor" type="CSGBox" parent="."]
+transform = Transform( -4.13795e-08, 0.624439, -0.781081, 1.40875e-08, 0.781074, 0.624445, 1.00001, 1.48354e-08, -4.11173e-08, -66.8214, 95.1952, -2.73923 )
+use_collision = true
+width = 0.2
+height = 0.2
+depth = 0.06
+material = SubResource( 123 )
+
+[node name="drillHole" type="CSGCylinder" parent="shaftSouthDoor"]
+transform = Transform( 1.43743e-08, -4.12799e-08, 0.99999, -0.999937, 0.0111879, 1.48354e-08, -0.0111874, -0.999928, -4.11164e-08, 0.00434256, -0.0428429, -0.000274658 )
+operation = 2
+radius = 0.014
+height = 0.061
+sides = 30
+material = SubResource( 126 )
+
+[node name="shaftSouthDoor2" type="CSGBox" parent="."]
+transform = Transform( -4.13795e-08, 0.624439, -0.781081, 1.40875e-08, 0.781074, 0.624445, 1.00001, 1.48354e-08, -4.11173e-08, -67.0039, 95.3394, -2.73923 )
+use_collision = true
+width = 0.2
+height = 0.2
+depth = 0.06
+material = SubResource( 123 )
+
+[node name="shaftNorthDoor" type="CSGBox" parent="."]
+transform = Transform( -4.37118e-08, -0.624439, -0.781081, 0, 0.781074, -0.624445, 1.00001, -2.72951e-08, -3.41422e-08, 55.301, 94.918, -2.841 )
+use_collision = true
+width = 0.2
+height = 0.2
+depth = 0.06
+material = SubResource( 123 )
+
+[node name="copperSouthA" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -66.7694, 95.2085, -2.69643 )
+radius = 0.006
+material = SubResource( 127 )
+
+[node name="copperSouthB" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -66.7694, 95.2085, -2.78482 )
+radius = 0.006
+material = SubResource( 127 )
+
+[node name="copperSouthC" type="CSGCylinder" parent="."]
+transform = Transform( 0.097058, 0.174023, 0, -0.0945502, 0.212868, 0, 0, 0, 0.0447368, -66.7795, 95.195, -2.69613 )
+radius = 0.018
+height = 0.1
+material = SubResource( 128 )
+
+[node name="copperSouthD" type="CSGCylinder" parent="."]
+transform = Transform( 0.097058, 0.174023, 0, -0.0945502, 0.212868, 0, 0, 0, 0.0447368, -66.7795, 95.195, -2.78535 )
+radius = 0.012
+height = 0.1
+material = SubResource( 129 )
+
+[node name="copperNorthA" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 55.2435, 94.9382, -2.87832 )
+radius = 0.006
+material = SubResource( 127 )
+
+[node name="copperNorthB" type="CSGSphere" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 55.2466, 94.9417, -2.79352 )
+radius = 0.006
+material = SubResource( 127 )
+
+[node name="copperNorthC" type="CSGCylinder" parent="."]
+transform = Transform( 0.105854, -0.18965, 0, 0.0845866, 0.199072, 0, 0, 0, 0.0447368, 55.2552, 94.9251, -2.87811 )
+radius = 0.018
+height = 0.1
+material = SubResource( 128 )
+
+[node name="copperNorthD" type="CSGCylinder" parent="."]
+transform = Transform( 0.122415, -0.139007, 0, 0.0580901, 0.237221, 0, 0, 0, 0.0447368, 55.2508, 94.9281, -2.79398 )
+radius = 0.012
+height = 0.1
+material = SubResource( 129 )
+
+[node name="sarcophagusA" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.424, 71.126, -7.61313 )
+use_collision = true
+width = 2.278
+height = 1.048
+depth = 0.977
+material = SubResource( 137 )
+
+[node name="sarcophagusB" type="CSGBox" parent="sarcophagusA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0984726, 0 )
+operation = 2
+width = 1.977
+height = 0.872
+depth = 0.677
+material = SubResource( 138 )
+
+[node name="anteChamberEastWall" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.58, 71.8, 0.118 )
+use_collision = true
+width = 3.16
+height = 2.405
+depth = 0.225
+material = SubResource( 139 )
+
+[node name="ribEastA" type="CSGBox" parent="anteChamberEastWall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.879, 0, -0.163 )
+width = 0.1
+height = 2.405
+depth = 0.1
+material = SubResource( 145 )
+
+[node name="ribEastB" type="CSGBox" parent="anteChamberEastWall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.195, 0, -0.163 )
+width = 0.1
+height = 2.405
+depth = 0.1
+material = SubResource( 145 )
+
+[node name="ribEastC" type="CSGBox" parent="anteChamberEastWall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.431, 0, -0.163 )
+width = 0.1
+height = 2.405
+depth = 0.1
+material = SubResource( 145 )
+
+[node name="anteChamberWestWall" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.579, 71.91, -1.15 )
+use_collision = true
+width = 3.16
+height = 2.63
+depth = 0.225
+material = SubResource( 139 )
+
+[node name="saddleA" type="CSGCylinder" parent="anteChamberWestWall"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0.145396, 1.31369, 0 )
+operation = 2
+radius = 0.225
+sides = 20
+material = SubResource( 142 )
+
+[node name="saddleB" type="CSGCylinder" parent="anteChamberWestWall"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -0.550178, 1.314, 0 )
+operation = 2
+radius = 0.225
+sides = 20
+material = SubResource( 143 )
+
+[node name="saddleC" type="CSGCylinder" parent="anteChamberWestWall"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -1.218, 1.314, 0 )
+operation = 2
+radius = 0.225
+sides = 20
+material = SubResource( 144 )
+
+[node name="ribWestA" type="CSGBox" parent="anteChamberWestWall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.88, 0, 0.165 )
+width = 0.1
+height = 2.63
+depth = 0.1
+material = SubResource( 145 )
+
+[node name="ribWestB" type="CSGBox" parent="anteChamberWestWall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.196, 0, 0.165 )
+width = 0.1
+height = 2.63
+depth = 0.1
+material = SubResource( 145 )
+
+[node name="ribWestC" type="CSGBox" parent="anteChamberWestWall"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.43, 0, 0.165 )
+width = 0.1
+height = 2.63
+depth = 0.1
+material = SubResource( 145 )
+
+[node name="granitePartitionTop" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.841, 72.72, -0.512 )
+use_collision = true
+width = 0.525
+height = 0.539
+depth = 1.2
+material = SubResource( 140 )
+
+[node name="bump" type="CSGSphere" parent="granitePartitionTop"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.25, -0.18, 0.013 )
+radius = 0.075
+radial_segments = 15
+material = SubResource( 141 )
+
+[node name="semiCircle" type="CSGBox" parent="granitePartitionTop/bump"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.034775, -0.042717, 0.013 )
+operation = 2
+width = 0.2
+height = 0.08
+depth = 0.19
+
+[node name="small hole1" type="CSGSphere" parent="granitePartitionTop"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.263, -0.25, 0.013 )
+operation = 2
+radius = 0.02
+material = SubResource( 141 )
+
+[node name="granitePartitionBottom" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.841, 72.1, -0.512 )
+use_collision = true
+width = 0.525
+height = 0.703
+depth = 1.2
+material = SubResource( 140 )
+
+[node name="small hole2" type="CSGSphere" parent="granitePartitionBottom"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.263, 0.264, 0.013 )
+operation = 2
+radius = 0.02
+material = SubResource( 141 )
+
+[node name="limestoneBlock" type="CSGBox" parent="."]
+transform = Transform( -2.19686e-09, 0, 0.0502584, 0, 0.746668, 0, -0.337377, 0, -1.47472e-08, -12.125, 73.38, -0.512 )
+use_collision = true
+width = 3.11
+height = 0.3
+depth = 1.34
+material = SubResource( 147 )
+
+[node name="grooveA" type="CSGCylinder" parent="limestoneBlock"]
+transform = Transform( 0.151689, 0, 4.11095e-10, 0, 0.999999, 0, -2.84243e-07, 0, 1, 0.878, 0.003, 0.687 )
+operation = 2
+radius = 0.5
+height = 0.3
+sides = 30
+material = SubResource( 148 )
+
+[node name="grooveB" type="CSGCylinder" parent="limestoneBlock"]
+transform = Transform( 0.151689, 0, 4.11095e-10, 0, 0.999999, 0, -2.84243e-07, 0, 1, 0.256, 0.003, 0.687 )
+operation = 2
+radius = 0.5
+height = 0.3
+sides = 30
+material = SubResource( 148 )
+
+[node name="grooveC" type="CSGCylinder" parent="limestoneBlock"]
+transform = Transform( 0.151689, 0, 4.11095e-10, 0, 0.999999, 0, -2.84243e-07, 0, 1, -0.366, 0.003, 0.687 )
+operation = 2
+radius = 0.5
+height = 0.3
+sides = 30
+material = SubResource( 148 )
+
+[node name="grooveD" type="CSGCylinder" parent="limestoneBlock"]
+transform = Transform( 0.151689, 0, 4.11095e-10, 0, 0.999998, 0, -2.84243e-07, 0, 1, -0.988, 0.003, 0.687 )
+operation = 2
+radius = 0.5
+height = 0.3
+sides = 30
+material = SubResource( 148 )
+
+[node name="graniteBlock1" type="CSGBox" parent="."]
+transform = Transform( -2.19686e-09, 0, 0.0502584, 0, 0.746668, 0, -0.337377, 0, -1.47472e-08, -12.125, 72.8187, -0.512 )
+use_collision = true
+width = 3.11
+height = 1.2
+depth = 1.34
+material = SubResource( 147 )
+
+[node name="grooveA" type="CSGCylinder" parent="graniteBlock1"]
+transform = Transform( 0.151689, 0, 4.11095e-10, 0, 0.999999, 0, -2.84243e-07, 0, 1, 0.878, 0, 0.687 )
+operation = 2
+radius = 0.5
+height = 1.2
+sides = 30
+material = SubResource( 148 )
+
+[node name="grooveB" type="CSGCylinder" parent="graniteBlock1"]
+transform = Transform( 0.151689, 0, 4.11095e-10, 0, 0.999999, 0, -2.84243e-07, 0, 1, 0.256, 0, 0.687 )
+operation = 2
+radius = 0.5
+height = 1.2
+sides = 30
+material = SubResource( 148 )
+
+[node name="grooveC" type="CSGCylinder" parent="graniteBlock1"]
+transform = Transform( 0.151689, 0, 4.11095e-10, 0, 0.999999, 0, -2.84243e-07, 0, 1, -0.366, 0, 0.687 )
+operation = 2
+radius = 0.5
+height = 1.2
+sides = 30
+material = SubResource( 148 )
+
+[node name="grooveD" type="CSGCylinder" parent="graniteBlock1"]
+transform = Transform( 0.151689, 0, 4.11095e-10, 0, 0.999998, 0, -2.84243e-07, 0, 1, -0.988, 0, 0.687 )
+operation = 2
+radius = 0.5
+height = 1.2
+sides = 30
+material = SubResource( 148 )
+
+[node name="graniteBlock2" type="CSGBox" parent="."]
+transform = Transform( 0, -2.98023e-08, 0.0502584, 0, 0.746668, 9.31323e-10, -0.337377, 0, -1.49012e-08, -12.125, 72.057, -0.512002 )
+width = 3.11
+height = 0.865
+depth = 1.34
+material = SubResource( 147 )
+
+[node name="grooveA" type="CSGCylinder" parent="graniteBlock2"]
+transform = Transform( 0.151689, -1.00522e-14, 4.11099e-10, -1.36075e-16, 1.38381, 4.78728e-10, -2.84243e-07, 2.27591e-07, 1, 0.878, 0.112083, 0.686996 )
+operation = 2
+radius = 0.5
+height = 0.468614
+sides = 30
+material = SubResource( 148 )
+
+[node name="grooveB" type="CSGCylinder" parent="graniteBlock2"]
+transform = Transform( 0.151689, -1.69407e-21, 4.11099e-10, -2.64698e-23, 0.999999, 0, -2.84243e-07, 0, 1, 0.256001, 0.307701, 0.686996 )
+operation = 2
+radius = 0.5
+height = 0.28348
+sides = 30
+material = SubResource( 148 )
+
+[node name="grooveC" type="CSGCylinder" parent="graniteBlock2"]
+transform = Transform( 0.151689, 1.39495e-14, 4.11099e-10, 1.88832e-16, 0.467386, -6.64331e-10, -2.84243e-07, -3.1583e-07, 1, -0.355999, 0.234871, 0.708015 )
+operation = 2
+radius = 0.5
+height = 0.866
+sides = 30
+material = SubResource( 148 )
+
+[node name="grooveD" type="CSGCylinder" parent="graniteBlock2"]
+transform = Transform( 0.151689, 6.07126e-16, 4.11099e-10, 8.21863e-18, 0.976818, -2.89135e-11, -2.84243e-07, -1.37463e-08, 1, -0.988001, 0.0307846, 0.686996 )
+operation = 2
+radius = 0.5
+height = 0.842675
+sides = 30
+material = SubResource( 148 )
+
+[node name="cut" type="CSGPolygon" parent="graniteBlock2"]
+transform = Transform( 1, 0, 7.10543e-15, -8.20415e-29, 1, 2.22045e-16, -4.61853e-14, 0, 1, -1.52066, -0.429581, 0.71257 )
+invert_faces = true
+polygon = PoolVector2Array( 0.39, 0, 1.555, 0.8, 2.85, 0 )
+depth = 1.34
+material = SubResource( 192 )
+
+[node name="Portcullis1EfremTheory" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 4.44089e-16, 0, 0.991192, 0, 0, 0, 1, -11.8001, 71.8054, -0.517578 )
+width = 0.575421
+height = 2.425
+depth = 1.04
+material = SubResource( 149 )
+
+[node name="holeA1" type="CSGCylinder" parent="Portcullis1EfremTheory"]
+transform = Transform( -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 1.025, -0.3 )
+operation = 2
+radius = 0.043
+height = 0.576
+sides = 20
+
+[node name="holeA2" type="CSGCylinder" parent="Portcullis1EfremTheory"]
+transform = Transform( -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 1.025, -0.1 )
+operation = 2
+radius = 0.043
+height = 0.576
+sides = 20
+
+[node name="holeA3" type="CSGCylinder" parent="Portcullis1EfremTheory"]
+transform = Transform( -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 1.025, 0.1 )
+operation = 2
+radius = 0.043
+height = 0.576
+sides = 20
+
+[node name="holeA4" type="CSGCylinder" parent="Portcullis1EfremTheory"]
+transform = Transform( -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 1.025, 0.31 )
+operation = 2
+radius = 0.043
+height = 0.576
+sides = 20
+
+[node name="Portcullis2OfficialTheory" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 4.44089e-16, 0, 0.991192, 0, 0, 0, 1, -11.1175, 71.1555, -0.517578 )
+width = 0.575421
+height = 1.12
+depth = 1.04
+material = SubResource( 150 )
+
+[node name="holeA1" type="CSGCylinder" parent="Portcullis2OfficialTheory"]
+transform = Transform( -4.37114e-08, -1, -5.29396e-23, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0.352043, -0.3 )
+operation = 2
+radius = 0.043
+height = 0.576
+sides = 20
+
+[node name="holeA2" type="CSGCylinder" parent="Portcullis2OfficialTheory"]
+transform = Transform( -4.37114e-08, -1, -5.29396e-23, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0.352043, -0.0999999 )
+operation = 2
+radius = 0.043
+height = 0.576
+sides = 20
+
+[node name="holeA3" type="CSGCylinder" parent="Portcullis2OfficialTheory"]
+transform = Transform( -4.37114e-08, -1, -5.29396e-23, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0.352043, 0.0999999 )
+operation = 2
+radius = 0.043
+height = 0.576
+sides = 20
+
+[node name="holeA4" type="CSGCylinder" parent="Portcullis2OfficialTheory"]
+transform = Transform( -4.37114e-08, -1, -5.29396e-23, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0.352043, 0.31 )
+operation = 2
+radius = 0.043
+height = 0.576
+sides = 20
+
+[node name="saddleB" type="CSGCylinder" parent="Portcullis2OfficialTheory"]
+transform = Transform( 1, -4.76456e-22, 2.8399e-29, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -0.00577831, 2.01007, 0 )
+radius = 0.15
+height = 1.47966
+sides = 20
+material = SubResource( 151 )
+
+[node name="KingsChamberGraniteBeamA1" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 77.335, -5.238 )
+use_collision = true
+width = 5.24
+height = 1.755
+depth = 10.48
+material = SubResource( 161 )
+
+[node name="KingsChamberGraniteBeamB1" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 80.025, -5.238 )
+use_collision = true
+width = 5.24
+height = 1.755
+depth = 10.48
+material = SubResource( 162 )
+
+[node name="KingsChamberGraniteBeamC1" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 82.715, -5.238 )
+use_collision = true
+width = 5.24
+height = 1.755
+depth = 10.48
+material = SubResource( 162 )
+
+[node name="KingsChamberGraniteBeamD1" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 85.4, -5.238 )
+use_collision = true
+width = 5.24
+height = 1.755
+depth = 10.48
+material = SubResource( 162 )
+
+[node name="KingsChamberGraniteBeamE1" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.48, 88.09, -5.238 )
+use_collision = true
+width = 5.24
+height = 1.755
+depth = 10.48
+material = SubResource( 162 )
+
+[node name="KingsChamberRoof1" type="CSGPolygon" parent="."]
+transform = Transform( 1.25276, 0, 0, 0, 1.556, 0, 0, 0, 2.64858, -21.629, 88.4, 0 )
+polygon = PoolVector2Array( 0.558974, 0.259373, -0.0763896, 1.12706, 3.36844, 2.82008, 3.36844, 1.58241 )
+depth = 3.95
+material = SubResource( 114 )
+
+[node name="KingsChamberRoof2" type="CSGPolygon" parent="."]
+transform = Transform( 1.25276, 0, 0, 0, 1.556, 0, 0, 0, 2.64858, -21.596, 90.315, 0 )
+polygon = PoolVector2Array( 0.611601, 0.25663, 0.0710371, 1.00837, 3.36356, 2.5712, 3.36356, 1.42381 )
+depth = 3.95
+material = SubResource( 114 )
+
+[node name="KingsChamberRoof3" type="CSGPolygon" parent="."]
+transform = Transform( -1.253, 0, 0, 0, 1.556, 0, 0, 0, -2.649, -13.1925, 90.3193, -10.4245 )
+polygon = PoolVector2Array( 0.690665, 0.197281, 0.0710371, 1.00837, 3.36356, 2.5712, 3.36356, 1.42381 )
+depth = 3.95
+material = SubResource( 114 )
+
+[node name="KingsChamberRoof4" type="CSGPolygon" parent="."]
+transform = Transform( -1.25276, 0, -2.31546e-07, 0, 1.556, 0, 1.0952e-07, 0, -2.64858, -13.162, 88.31, -10.462 )
+polygon = PoolVector2Array( 0.690666, 0.375324, 0.0272474, 1.16663, 3.38813, 2.76902, 3.40804, 1.64589 )
+depth = 3.95
+material = SubResource( 114 )
+
+[node name="swivelStoneDescendingPassage" type="CSGPolygon" parent="."]
+transform = Transform( 0.999936, 0.0112745, 0, -0.0112745, 0.999936, 0, 0, 0, 1, 95.7266, 44.3539, 0 )
+polygon = PoolVector2Array( 0, 0, 0, 1, 1.2, 1 )
+material = SubResource( 183 )
+
+[node name="swivelStoneDescendingPassage2" type="CSGCylinder" parent="swivelStoneDescendingPassage"]
+transform = Transform( 0.3, -6.93889e-17, 9.31323e-10, 9.31323e-10, -1.31134e-08, -0.3, 0, 0.919977, -4.02135e-08, 0.0335922, 0.956245, -0.499826 )
+operation = 2
+radius = 0.045
+height = 1.09
+sides = 20
+
+[node name="granitePlug4" type="CSGBox" parent="."]
+transform = Transform( 0.898027, 0.439939, 0, -0.439939, 0.898027, 0, 0, 0, 1, 0.688983, 67.1866, -0.5 )
+width = 1.42
+height = 1.2
+depth = 1.0
+material = SubResource( 187 )
+
+[node name="woodenBeam" type="CSGBox" parent="."]
+transform = Transform( 0.904135, 0.427247, 0, -0.427247, 0.904135, 0, 0, 0, 1, 1.34862, 66.8045, -0.473289 )
+width = 0.1
+height = 0.1
+depth = 1.9
+
+[node name="subterraneanStuffA" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.9123, 0.773, -9.05 )
+use_collision = true
+width = 4.0
+height = 1.5
+depth = 10.0
+material = SubResource( 206 )
+
+[node name="subterraneanStuffB" type="CSGBox" parent="subterraneanStuffA"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.22259, -0.996003 )
+use_collision = true
+width = 2.8
+height = 1.0
+depth = 8.0
+material = SubResource( 206 )
+
+[node name="subterraneanStuffC" type="CSGCylinder" parent="subterraneanStuffA"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2.01691, -1.99763 )
+use_collision = true
+radius = 0.5
+height = 5.0
+sides = 16
+material = SubResource( 206 )
+
+[node name="subterraneanStuffD" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.16032, 0.773, -9.05 )
+use_collision = true
+width = 4.0
+height = 1.5
+depth = 10.0
+material = SubResource( 206 )
+
+[node name="subterraneanStuffE" type="CSGBox" parent="subterraneanStuffD"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0306315, 1.14948, 0.0139079 )
+use_collision = true
+width = 2.5
+height = 0.8
+depth = 10.0
+material = SubResource( 206 )
+
+[node name="subterraneanStuffF" type="CSGCylinder" parent="subterraneanStuffD"]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, -0.366917, 1.79516, -1.99763 )
+use_collision = true
+radius = 0.3
+height = 5.0
+sides = 16
+material = SubResource( 206 )
+
+[node name="SpotLight" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.998393, 0.0566754, 0, -0.0566754, 0.998393, 12.7858, 3.15109, 0 )
+
+[node name="SpotLight2" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.822809, 0.568318, 0, -0.568318, 0.822809, 29.1, 11.6131, 0.912671 )
+
+[node name="SpotLight3" type="SpotLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 46.392, 19.9629, 0 )
+
+[node name="SpotLight4" type="SpotLight" parent="."]
+transform = Transform( -0.0973438, -0.30237, 0.948207, 0.190993, 0.929348, 0.315964, -0.976753, 0.211858, -0.0327156, 70.973, 33.4, -0.448 )
+light_energy = 2.383
+
+[node name="SpotLight5" type="SpotLight" parent="."]
+transform = Transform( -0.764098, 0.117103, -0.634382, 0.560144, 0.608225, -0.562406, 0.319988, -0.785079, -0.530338, 55.1587, 94.8173, -2.95519 )
+
+[node name="SpotLight6" type="SpotLight" parent="."]
+transform = Transform( -0.10043, 0.443587, 0.890586, 0.0497078, 0.896231, -0.440794, -0.993702, -3.7489e-09, -0.112059, -7.78962, 70.9538, -0.376697 )
+
+[node name="SpotLight7" type="SpotLight" parent="."]
+transform = Transform( 0.112054, 0.00898864, -0.993662, 0.00100702, -0.99996, -0.00893205, -0.993702, 2.27863e-07, -0.112058, -10.75, 72.5, -0.533 )
+
+[node name="SpotLight8" type="SpotLight" parent="."]
+transform = Transform( 0.112054, 0.00898864, -0.993661, 0.00100702, -0.99996, -0.00893205, -0.993702, 2.34775e-07, -0.112058, -13.432, 71.1184, -0.533 )
+
+[node name="SpotLight9" type="SpotLight" parent="."]
+transform = Transform( -0.00817995, 0.806862, 0.590684, 0.0200458, 0.590717, -0.806629, -0.999766, 0.00524253, -0.0210062, 2.21566, 65.909, -0.533 )
+
+[node name="SpotLight10" type="SpotLight" parent="."]
+transform = Transform( 0.0205351, 0.53702, -0.84332, 0.00685962, -0.843553, -0.537001, -0.999766, 0.00524253, -0.0210062, 30.7261, 33.3836, -2.43225 )
+
+[node name="SpotLight11" type="SpotLight" parent="."]
+transform = Transform( -0.172369, -0.439405, -0.881596, 0.231736, 0.851783, -0.469855, 0.957386, -0.285286, -0.0449947, 11.5396, 2.43748, -1.47003 )
+
+[node name="Sprite3D1" type="Sprite3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.47625, 1.76887, -7.164 )
+billboard = 1
+texture = SubResource( 106 )
+
+[node name="Viewport" type="Viewport" parent="."]
+size = Vector2( 60, 60 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 2 )
+
+[node name="Label1" type="Label" parent="Viewport"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 63 )
+text = "
+Subterranean
+Chamber (Pit):
+An unfinished backup 
+plan for the King's 
+Chamber. The walls were
+originally encrusted with 
+salt. Nobody knows why.  
+ "
+align = 1
+valign = 1
+
+[node name="Sprite3D2" type="Sprite3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 2, 0, 0, 0, 1, -5.556, 0.5, -1.684 )
+billboard = 2
+texture = SubResource( 44 )
+
+[node name="Viewport2" type="Viewport" parent="."]
+size = Vector2( 80, 80 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 4 )
+
+[node name="Label2" type="Label" parent="Viewport2"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 64 )
+text = "Bottomless 
+Pit shaft:
+Originally 3.7 m deep.
+It had since been dug
+deeper by many explorers. 
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D3" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -10.193, 0.3, -0.323 )
+billboard = 2
+texture = SubResource( 45 )
+
+[node name="Viewport3" type="Viewport" parent="."]
+size = Vector2( 64, 31 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 3 )
+
+[node name="Label3" type="Label" parent="Viewport3"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 65 )
+text = "Dead End 
+Passage:
+When first explored,
+the passage floor was 
+covered with about
+7 cm of dark earthy mould"
+align = 1
+valign = 1
+
+[node name="Sprite3D4" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.329, 0.3, -1.5 )
+billboard = 1
+texture = SubResource( 107 )
+
+[node name="Viewport4" type="Viewport" parent="."]
+size = Vector2( 84, 84 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 5 )
+
+[node name="Label4" type="Label" parent="Viewport4"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 66 )
+text = "Lesser
+Subterranean
+Chamber
+(Niche/Recess)"
+align = 1
+valign = 1
+
+[node name="Sprite3D5" type="Sprite3D" parent="."]
+transform = Transform( 0.49029, 0, 0.0980581, 0, 0.5, 0, -0.0980581, 0, 0.49029, 60, 26.5, -0.5 )
+billboard = 2
+texture = SubResource( 70 )
+
+[node name="Viewport5" type="Viewport" parent="."]
+size = Vector2( 84, 65 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 6 )
+
+[node name="Label5" type="Label" parent="Viewport5"]
+margin_right = 455.0
+margin_bottom = 321.0
+custom_fonts/font = SubResource( 67 )
+text = "
+Descending 
+Passage: 
+The passage was 
+dug into the bedrock
+below the pyramid."
+align = 1
+valign = 1
+
+[node name="Sprite3D6" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 71.6, 32.53, -0.5 )
+billboard = 2
+texture = SubResource( 48 )
+
+[node name="Viewport6" type="Viewport" parent="."]
+size = Vector2( 112, 65 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 7 )
+
+[node name="Label6" type="Label" parent="Viewport6"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 68 )
+text = "Fallen Concealed 
+Block from the 
+ascending 
+passage above."
+align = 1
+valign = 1
+
+[node name="Sprite3D7" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 95.494, 44.5935, -0.53 )
+billboard = 2
+texture = SubResource( 49 )
+
+[node name="Viewport7" type="Viewport" parent="."]
+size = Vector2( 40, 40 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 8 )
+
+[node name="Label7" type="Label" parent="Viewport7"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 69 )
+text = "Original Entrance:
+When you enter,
+you are facing South.
+(Al-Ma'mun entered
+here?)"
+align = 1
+valign = 1
+
+[node name="Sprite3D8" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 88.2781, 40.6264, -0.506848 )
+billboard = 1
+texture = SubResource( 50 )
+
+[node name="Viewport8" type="Viewport" parent="."]
+size = Vector2( 75, 82 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 9 )
+
+[node name="Label8" type="Label" parent="Viewport8"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 71 )
+text = "Descending
+Passage:
+North-
+South
+orientation."
+align = 1
+valign = 1
+
+[node name="Sprite3D9" type="Sprite3D" parent="."]
+transform = Transform( 0.119622, 0, 0.776767, 0, 0.233178, 0, -0.48548, 0, 0.191396, 93.5, 33.5, -5.2 )
+billboard = 2
+texture = SubResource( 51 )
+
+[node name="Viewport9" type="Viewport" parent="."]
+size = Vector2( 40, 80 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 10 )
+
+[node name="Label9" type="Label" parent="Viewport9"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 72 )
+text = "
+Abbasid Caliph
+Al-Ma'mun 
+Forced
+Entrance in
+820 AD
+(or Exit?)."
+align = 1
+valign = 1
+
+[node name="Sprite3D10" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 68.1, 30.8, -0.8 )
+billboard = 2
+texture = SubResource( 52 )
+
+[node name="Viewport10" type="Viewport" parent="."]
+size = Vector2( 58, 48 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 11 )
+
+[node name="Label10" type="Label" parent="Viewport10"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 73 )
+text = "
+Irregular 
+opening.
+ "
+align = 1
+valign = 1
+
+[node name="Sprite3D11" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 65.8, 34.7, -1.1 )
+billboard = 2
+texture = SubResource( 53 )
+
+[node name="Viewport11" type="Viewport" parent="."]
+size = Vector2( 50, 100 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 12 )
+
+[node name="Label11" type="Label" parent="Viewport11"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 74 )
+text = "
+Al-Ma'mun
+Forced Entry."
+align = 1
+valign = 1
+
+[node name="Sprite3D12" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 67.7, 33.3, -1.5 )
+billboard = 2
+texture = SubResource( 54 )
+
+[node name="Viewport12" type="Viewport" parent="."]
+size = Vector2( 54, 65 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 14 )
+
+[node name="Label12" type="Label" parent="Viewport12"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 75 )
+text = "
+Irregular
+Vertical
+Passage"
+align = 1
+valign = 1
+
+[node name="Sprite3D13" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 65.8, 33.3, -1.1 )
+billboard = 2
+texture = SubResource( 76 )
+
+[node name="Viewport13" type="Viewport" parent="."]
+size = Vector2( 50, 100 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 24 )
+
+[node name="Label13" type="Label" parent="Viewport13"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 74 )
+text = "
+The ascending 
+passage is above 
+this point."
+align = 1
+valign = 1
+
+[node name="Sprite3D14" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 52, 41.5, -0.5 )
+billboard = 1
+texture = SubResource( 42 )
+
+[node name="Viewport14" type="Viewport" parent="."]
+size = Vector2( 66, 31 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 18 )
+
+[node name="Label14" type="Label" parent="Viewport14"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 77 )
+text = "Ascending Passage:
+The angles of elevation
+of the ascending passage,
+descending passage and 
+Grand Gallery are all about
+26 degrees.
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D15" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 31, 50.1, -0.55 )
+billboard = 1
+texture = SubResource( 55 )
+
+[node name="Viewport15" type="Viewport" parent="."]
+size = Vector2( 57, 48 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 17 )
+
+[node name="Label15" type="Label" parent="Viewport15"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 78 )
+text = "Queen's 
+Chamber
+Passage"
+align = 1
+valign = 1
+
+[node name="Sprite3D16" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -3.07, 49.634, -0.554 )
+billboard = 2
+texture = SubResource( 56 )
+
+[node name="Viewport16" type="Viewport" parent="."]
+size = Vector2( 100, 100 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 19 )
+
+[node name="Label16" type="Label" parent="Viewport16"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 79 )
+text = "Queen's Chamber:
+When first entered, 
+the walls were 
+encrusted with salt 
+up to 1.3 cm thick. 
+The chamber was 
+originally planned 
+for Khufu's burial. 
+After a change of 
+plan, the chamber 
+and its two shafts
+are closed off.   "
+align = 1
+valign = 1
+
+[node name="Sprite3D17" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 34.514, 49.98, -0.5 )
+billboard = 2
+texture = SubResource( 60 )
+
+[node name="Viewport17" type="Viewport" parent="."]
+size = Vector2( 80, 80 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 20 )
+
+[node name="Label17" type="Label" parent="Viewport17"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 80 )
+text = "
+A bridge slab was used to
+bridge the Grand Gallery
+and the ascending passage.
+It was missing. If present, 
+it would have blocked off the 
+Queen's Chamber passage.
+You can move through this
+slab (dirty yellow colour)."
+align = 1
+valign = 1
+
+[node name="Sprite3D18" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 33.5, 50.9168, -0.5 )
+billboard = 1
+texture = SubResource( 39 )
+
+[node name="Viewport18" type="Viewport" parent="."]
+size = Vector2( 75, 31 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 21 )
+
+[node name="Label18" type="Label" parent="Viewport18"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 81 )
+text = "
+Quadrivium"
+align = 1
+valign = 1
+
+[node name="Sprite3D19" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 31.9384, 51.5623, -0.5 )
+billboard = 2
+texture = SubResource( 61 )
+
+[node name="Viewport19" type="Viewport" parent="."]
+size = Vector2( 160, 150 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 22 )
+
+[node name="Label19" type="Label" parent="Viewport19"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "
+Grand Gallery.
+A narrow groove 
+runs on either side 
+of the walls above 
+you. Try getting 
+into the grooves.
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D20" type="Sprite3D" parent="."]
+transform = Transform( 0.292421, 0, 0, 0, 0.277103, 0, 0, 0, 0.5, 94.7363, 43.8468, -0.5 )
+billboard = 2
+texture = SubResource( 83 )
+
+[node name="Viewport20" type="Viewport" parent="."]
+size = Vector2( 100, 100 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 25 )
+
+[node name="Label20" type="Label" parent="Viewport20"]
+custom_fonts/font = SubResource( 82 )
+text = "
+Theory: Al-Ma'mun went
+down this passage, found
+nothing in the Subterranean
+Chamber, dug his way up
+the irregular passage and
+found the ascending passage.
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D21" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 93, 33.5, -5.55 )
+billboard = 1
+texture = SubResource( 85 )
+
+[node name="Viewport21" type="Viewport" parent="."]
+size = Vector2( 40, 60 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 26 )
+
+[node name="Label21" type="Label" parent="Viewport21"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "
+Tourists 
+Entrance
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D22" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 70.445, 31.9, -0.473 )
+billboard = 1
+texture = SubResource( 88 )
+
+[node name="Viewport22" type="Viewport" parent="."]
+size = Vector2( 50, 60 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 27 )
+
+[node name="Label22" type="Label" parent="Viewport22"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "
+This block was 
+used to conceal
+the ascending 
+passage above."
+align = 1
+valign = 1
+
+[node name="Sprite3D23" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -6.01423, 70.8489, -0.439234 )
+billboard = 1
+texture = SubResource( 93 )
+
+[node name="Viewport23" type="Viewport" parent="."]
+size = Vector2( 70, 70 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 28 )
+
+[node name="Label23" type="Label" parent="Viewport23"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "
+The Great Step.
+This point here is 
+aligned with the 
+Pyramid Apex 
+(about 150m above) and 
+the Queen's Chamber 
+center (about 20m below).
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D24" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 13.5296, 60.3797, -0.5 )
+billboard = 1
+texture = SubResource( 95 )
+
+[node name="Viewport24" type="Viewport" parent="."]
+size = Vector2( 100, 100 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 29 )
+
+[node name="Label24" type="Label" parent="Viewport24"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Grand Gallery.
+Each  ramp shelf on 
+either side has 28 
+rectangular slots. The
+gallery floor consists
+of a large central groove
+now covered by flat
+wooden planks.
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D25" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 90, 33.4, -5.28 )
+billboard = 2
+texture = SubResource( 96 )
+
+[node name="Viewport25" type="Viewport" parent="."]
+size = Vector2( 40, 40 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 30 )
+
+[node name="Label25" type="Label" parent="Viewport25"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "
+Theory: Al-Ma'mun might have
+dug this passage to get into
+the pyramid. However another
+theory says that he might
+have dug this passage to get
+the sarcophagus lid out of the
+pyramid.
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D26" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 32.1625, 55.4415, -1.08076 )
+double_sided = false
+texture = SubResource( 97 )
+
+[node name="Viewport26" type="Viewport" parent="."]
+size = Vector2( 70, 70 )
+size_override_stretch = true
+render_target_v_flip = true
+script = ExtResource( 31 )
+
+[node name="Label26" type="Label" parent="Viewport26"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "The grooves are about
+16 cm in height and 2 cm
+deep. They were well-
+chiseled, indicating that a
+lot of materials were 
+removed. (The grooves 
+here are widened for 
+special effects)"
+align = 1
+valign = 1
+
+[node name="Sprite3D27" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -6.11771, -30.4305, -2.10849 )
+billboard = 1
+texture = SubResource( 98 )
+
+[node name="Viewport27" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 32 )
+
+[node name="Label27" type="Label" parent="Viewport27"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "
+Bottomless Pit Shaft:
+The pit is filled with
+sand and small stones. "
+align = 1
+valign = 1
+
+[node name="Sprite3D28" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 35.8095, 49.3638, -0.490157 )
+billboard = 1
+texture = SubResource( 99 )
+
+[node name="Viewport28" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 33 )
+
+[node name="Label28" type="Label" parent="Viewport28"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "
+Ascending
+Passage. "
+align = 1
+valign = 1
+
+[node name="Sprite3D29" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -14.4318, 71.0454, -0.341565 )
+billboard = 1
+texture = SubResource( 100 )
+
+[node name="Viewport29" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 34 )
+
+[node name="Label29" type="Label" parent="Viewport29"]
+margin_right = 838.0
+margin_bottom = 645.0
+custom_fonts/font = SubResource( 82 )
+text = "King's Chamber:
+Despite the scorching 
+heat felt outside the
+pyramid, the temperature
+here remains a constant
+20 degrees Celsius.
+
+"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D30" type="Sprite3D" parent="."]
+transform = Transform( 0.0980672, 0, 0.490288, 0, 0.5, 0, -0.490288, 0, 0.0980672, -19.8794, 72.5011, -3.75993 )
+billboard = 2
+texture = SubResource( 146 )
+
+[node name="Viewport30" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 35 )
+
+[node name="Label30" type="Label" parent="Viewport30"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "No writing or 
+hieroglyphics  
+have been found 
+within the pyramid. 
+This was the norm 
+for burial chamber at
+that time. "
+align = 1
+valign = 1
+
+[node name="Sprite3D31" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 95.4861, 44.9093, -0.49 )
+billboard = 1
+texture = SubResource( 136 )
+
+[node name="Viewport31" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 36 )
+
+[node name="Label31" type="Label" parent="Viewport31"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "
+A heavy swivel stone
+door (coloured cyan
+here) flushed with 
+the pyramid exterior.
+(You can move 
+through the stone)
+"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D32" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 20.8853, 7.20931, -0.49 )
+billboard = 2
+texture = SubResource( 108 )
+
+[node name="Viewport32" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 37 )
+
+[node name="Label32" type="Label" parent="Viewport32"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "
+The Great Pyramid of Giza
+was built for Pharaoh Khufu
+between 2580 BC and 2560 BC."
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D33" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -17.5033, 72.0413, -6.94328 )
+billboard = 2
+texture = SubResource( 105 )
+
+[node name="Viewport33" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 38 )
+
+[node name="Label33" type="Label" parent="Viewport33"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "
+King's Chamber:
+Khufu's mummified 
+body was not found
+in the red-granite
+sarcophagus."
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D34" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 70.1986, 32.8949, -0.487848 )
+billboard = 2
+texture = SubResource( 109 )
+
+[node name="Viewport34" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 39 )
+
+[node name="Label34" type="Label" parent="Viewport34"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "
+3 granite plugs sealed 
+the ascending passage.
+"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D35" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 66.2596, 35.0618, -0.487848 )
+billboard = 2
+texture = SubResource( 110 )
+
+[node name="Viewport35" type="Viewport" parent="."]
+size = Vector2( 60, 60 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 40 )
+
+[node name="Label35" type="Label" parent="Viewport35"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "
+Efrem Piccin in his book
+(GREAT PYRAMID
+ EXPLANATION) calculated
+that 25 granite plugs might
+have been intended to seal
+the ascending passage.  
+"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D36" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 19.6763, 57.4291, -0.488 )
+billboard = 2
+texture = SubResource( 111 )
+
+[node name="Viewport36" type="Viewport" parent="."]
+size = Vector2( 80, 80 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 41 )
+
+[node name="Label36" type="Label" parent="Viewport36"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Grand Gallery:
+The walls are corbelled.
+The distances between the
+two walls decrease in 7 steps
+such that at the top, the walls
+are only 1 metre apart."
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D37" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -6.36304, 49.8243, 0.173393 )
+billboard = 2
+texture = SubResource( 117 )
+
+[node name="Viewport37" type="Viewport" parent="."]
+size = Vector2( 100, 100 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 42 )
+
+[node name="Label37" type="Label" parent="Viewport37"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Niche:
+A life size statue of Khufu
+(or his Ka-spiritual double)
+should be installed here, 
+but the niche was found
+empty. Explorers hacked 
+a passage at the bottom 
+of the niche.
+"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D38" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -5.04536, 50.2, 8.49683 )
+billboard = 2
+texture = SubResource( 119 )
+
+[node name="Viewport38" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 43 )
+
+[node name="Label38" type="Label" parent="Viewport38"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "There are no
+treasures here!"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D39" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -8.02362, 50.1653, -2.51869 )
+billboard = 2
+texture = SubResource( 121 )
+
+[node name="Viewport39" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 44 )
+
+[node name="Label39" type="Label" parent="Viewport39"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Queen's Chamber South Shaft: 
+This could be for ventilation,
+astonomical function or
+religious purpose. The
+opening was originally 
+bricked up and camouflaged.
+"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D40" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -8.024, 50.162, -3.022 )
+billboard = 2
+texture = SubResource( 122 )
+
+[node name="Viewport40" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 45 )
+
+[node name="Label40" type="Label" parent="Viewport40"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Queen's Chamber South Shaft: 
+Robot UPUAUT 2 
+was sent into the shaft
+in 1993. Do take a look at
+what it found (move like a
+crab).
+ "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D41" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -38.9341, 73.3014, -2.75 )
+billboard = 2
+texture = SubResource( 124 )
+
+[node name="Viewport41" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 46 )
+
+[node name="Label41" type="Label" parent="Viewport41"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Robot UPUAUT 2 
+found a small lime-
+stone slab door with 
+two corroded pieces 
+of copper. What 
+could be behind this 
+door?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D42" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -67.05, 95.4, -2.741 )
+billboard = 2
+texture = SubResource( 125 )
+
+[node name="Viewport42" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 47 )
+
+[node name="Label42" type="Label" parent="Viewport42"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "
+
+?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D43" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -66.6, 95.2, -2.83 )
+double_sided = false
+texture = SubResource( 130 )
+
+[node name="Viewport43" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+render_target_v_flip = true
+script = ExtResource( 48 )
+
+[node name="Label43" type="Label" parent="Viewport43"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "In 2002, Robot 
+Pyramid Rover 
+drilled a hole in 
+the first smooth
+slab door. It 
+found a rough 
+cracked screen 
+door. What is 
+behind this 
+second door?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D44" type="Sprite3D" parent="."]
+transform = Transform( -0.499601, 0, -0.0199786, 0, 0.5, 0, 0.0199786, 0, -0.499601, -66.58, 95.2009, -2.64886 )
+double_sided = false
+texture = SubResource( 131 )
+
+[node name="Viewport44" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+render_target_v_flip = true
+script = ExtResource( 49 )
+
+[node name="Label44" type="Label" parent="Viewport44"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "In the 2011 Project Djedi,
+the robot found red paint
+hieroglyphics behind this door.
+It found that the two copper
+pieces could be ornaments
+like magic hieroglyphic signs
+for Khufu's soul to ascent to
+the skies. "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D45" type="Sprite3D" parent="."]
+transform = Transform( -0.499601, 0, -0.0199786, 0, 0.5, 0, 0.0199786, 0, -0.499601, -3.078, 49.983, -2.74 )
+billboard = 2
+texture = SubResource( 132 )
+
+[node name="Viewport45" type="Viewport" parent="."]
+size = Vector2( 75, 75 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 50 )
+
+[node name="Label45" type="Label" parent="Viewport45"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Queen's Chamber North Shaft:
+Items found - a small grey
+green granite stone ball, 
+a long piece of wood and
+a copper hook in the form of
+a swallow's tail."
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D46" type="Sprite3D" parent="."]
+transform = Transform( -0.499601, 0, -0.0199786, 0, 0.5, 0, 0.0199786, 0, -0.499601, 55.08, 94.95, -2.75 )
+transparent = false
+double_sided = false
+texture = SubResource( 133 )
+
+[node name="Viewport46" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 51 )
+
+[node name="Label46" type="Label" parent="Viewport46"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "The shaft bent to 
+avoid the Grand 
+Gallery. Robot 
+Pyramid Rover took
+some time to reach
+this limestone slab
+door with two 
+corroded pieces
+of copper. "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D47" type="Sprite3D" parent="."]
+transform = Transform( 0.499404, -7.59735e-06, 0.0244161, -3.41717e-05, 0.499999, 0.000854525, -0.0244161, -0.000855173, 0.499403, 55.081, 94.949, -2.9325 )
+transparent = false
+double_sided = false
+texture = SubResource( 215 )
+
+[node name="Viewport47" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 53 )
+
+[node name="Label47" type="Label" parent="Viewport47"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "ScanPyramids project
+discovered a large 
+cavity above the Grand
+Gallery using muon
+radiography. This slab
+door is close to the 
+cavity and Giulio Magli
+suggested \"A  possible
+explanation of the void
+in the pyramid of Khufu
+on the basis of the 
+pyramid texts. "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D48" type="Sprite3D" parent="."]
+transform = Transform( 0.499404, -7.59735e-06, 0.0244161, -3.41717e-05, 0.499999, 0.000854525, -0.0244161, -0.000855173, 0.499403, -7.70335, 70.8423, -0.506864 )
+billboard = 2
+texture = SubResource( 216 )
+
+[node name="Viewport48" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 52 )
+
+[node name="Label48" type="Label" parent="Viewport48"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "King's 
+Chamber
+Passage"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D49" type="Sprite3D" parent="."]
+transform = Transform( 0.499404, -7.59735e-06, 0.0244161, -3.41717e-05, 0.499999, 0.000854525, -0.0244161, -0.000855173, 0.499403, -9.12709, 70.8423, -0.506864 )
+billboard = 2
+texture = SubResource( 153 )
+
+[node name="Viewport49" type="Viewport" parent="Sprite3D49"]
+size = Vector2( 50, 50 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 54 )
+
+[node name="Label49" type="Label" parent="Sprite3D49/Viewport49"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Antechamber:
+Move up here 
+to view two 
+granite blocks.  "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D50" type="Sprite3D" parent="."]
+transform = Transform( 0.499404, -7.59735e-06, 0.0244161, -3.41717e-05, 0.499999, 0.000854525, -0.0244161, -0.000855173, 0.499403, -10.7618, 71.0005, -0.506864 )
+billboard = 2
+texture = SubResource( 154 )
+
+[node name="Viewport50" type="Viewport" parent="Sprite3D50"]
+size = Vector2( 60, 70 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 55 )
+
+[node name="Label50" type="Label" parent="Sprite3D50/Viewport50"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Granite Portcullis
+Theory 1:
+Some experts think
+that 3 portcullises 
+were used to seal 
+the King's Chamber
+Passage. They were
+lowered to the King's
+Chamber Passage by
+wooden cylindrical
+poles and ropes. Only 
+1 pole and 1 portcullis
+are shown here in blue
+(you may walk through
+them!). "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D51" type="Sprite3D" parent="."]
+transform = Transform( 0.499404, -7.59735e-06, 0.0244161, -3.41717e-05, 0.499999, 0.000854525, -0.0244161, -0.000855173, 0.499403, -11.5, 71.0005, -0.506864 )
+billboard = 2
+texture = SubResource( 155 )
+
+[node name="Viewport51" type="Viewport" parent="Sprite3D51"]
+size = Vector2( 60, 70 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 56 )
+
+[node name="Label51" type="Label" parent="Sprite3D51/Viewport51"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Granite Portcullis
+Theory 2: Author
+Efrem Piccin wrote 
+in his book (GREAT 
+PYRAMID EXPLANATION)
+that 3 taller portcullises
+were lowered when the 
+pyramid was built up to 
+the level of the Antechamber.
+Saddle-shaped stone blocks
+and mortar were used to seal
+the portcullises (and hence
+the King's Chamber Passage).
+Only 1 portcullis is shown 
+here in green (you may walk
+through it!)."
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D52" type="Sprite3D" parent="."]
+transform = Transform( 0.499404, -7.59735e-06, 0.0244161, -3.41717e-05, 0.499999, 0.000854525, -0.0244161, -0.000855173, 0.499403, -12.9765, 70.9742, -0.506864 )
+billboard = 2
+texture = SubResource( 156 )
+
+[node name="Viewport52" type="Viewport" parent="Sprite3D52"]
+size = Vector2( 60, 70 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 57 )
+
+[node name="Label52" type="Label" parent="Sprite3D52/Viewport52"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "King's Chamber
+Passage. "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D53" type="Sprite3D" parent="."]
+transform = Transform( 0.499404, -7.59735e-06, 0.0244161, -3.41717e-05, 0.499999, 0.000854525, -0.0244161, -0.000855173, 0.499403, -12.0553, 70.9518, -0.506864 )
+billboard = 2
+texture = SubResource( 157 )
+
+[node name="Viewport53" type="Viewport" parent="Sprite3D53"]
+size = Vector2( 60, 70 )
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 58 )
+
+[node name="Label53" type="Label" parent="Sprite3D53/Viewport53"]
+margin_right = 460.0
+margin_bottom = 483.0
+custom_fonts/font = SubResource( 82 )
+text = "Granite monolith:
+It has four vertical 
+semicircular grooves. 
+Some experts think 
+that the grooves were
+for ropes to lower the
+3 portcullises into the 
+King's Chamber Passage.
+(move up to view the 
+grooves)"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite3D54" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 30.773, 56.5, -1.081 )
+double_sided = false
+texture = SubResource( 159 )
+
+[node name="Viewport54" type="Viewport" parent="."]
+size = Vector2( 70, 70 )
+size_override_stretch = true
+render_target_v_flip = true
+script = ExtResource( 59 )
+
+[node name="Label54" type="Label" parent="Viewport54"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Authour Luca Miatello
+suggested in his article
+(Examining the Grand
+Gallery in the Pyramid 
+Khufu and its features) 
+how these grooves 
+could be used as a 
+lifting aid (represented 
+here in purple and you
+can move through it!) "
+align = 1
+valign = 1
+
+[node name="Sprite3D55" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -7.335, 78.282, -0.075 )
+double_sided = false
+texture = SubResource( 163 )
+
+[node name="Viewport55" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+render_target_v_flip = true
+script = ExtResource( 60 )
+
+[node name="Label55" type="Label" parent="Viewport55"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Forced Passage
+into the relieve
+chambers."
+align = 1
+valign = 1
+
+[node name="Sprite3D56" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -15.0345, 78.3663, -0.121803 )
+billboard = 2
+texture = SubResource( 164 )
+
+[node name="Viewport56" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 61 )
+
+[node name="Label56" type="Label" parent="Viewport56"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Davison's 
+Chamber:
+Its floor is
+rough. Its 
+ceiling is flat."
+align = 1
+valign = 1
+
+[node name="Sprite3D57" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -14.9552, 81.0034, -0.121803 )
+billboard = 2
+texture = SubResource( 165 )
+
+[node name="Viewport57" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 62 )
+
+[node name="Label57" type="Label" parent="Viewport57"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Wellington's 
+Chamber:
+Its floor is
+rough. Its 
+ceiling is flat."
+align = 1
+valign = 1
+
+[node name="Sprite3D58" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -15.0107, 83.7432, -0.121803 )
+billboard = 2
+texture = SubResource( 166 )
+
+[node name="Viewport58" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 63 )
+
+[node name="Label58" type="Label" parent="Viewport58"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Nelson's 
+Chamber:
+Its floor is
+rough. Its 
+ceiling is flat.
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D59" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -14.9835, 86.3666, -0.121803 )
+billboard = 2
+texture = SubResource( 167 )
+
+[node name="Viewport59" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 64 )
+
+[node name="Label59" type="Label" parent="Viewport59"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Lady 
+Arbuthnot's 
+Chamber:
+Its floor is
+rough. Its 
+ceiling is flat.
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D60" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -14.9835, 89.056, -0.121803 )
+billboard = 2
+texture = SubResource( 168 )
+
+[node name="Viewport60" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 65 )
+
+[node name="Label60" type="Label" parent="Viewport60"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Campbell's 
+Chamber:
+Its floor is
+rough. It has
+a pointed 
+limestone roof"
+align = 1
+valign = 1
+
+[node name="Sprite3D61" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -17.117, 78.55, -5.33 )
+billboard = 2
+texture = SubResource( 169 )
+
+[node name="Viewport61" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 66 )
+
+[node name="Label61" type="Label" parent="Viewport61"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Without the relieve
+Chambers, the King's 
+Chamber would collapse
+under the weight
+of the stones above it.
+Efrem Piccin in his book
+(GREAT PYRAMID 
+EXPLANATION) had 
+another explanation
+for the relieving
+Chambers."
+align = 1
+valign = 1
+
+[node name="Sprite3D62" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -20.024, 71.3, -2.763 )
+billboard = 2
+texture = SubResource( 170 )
+
+[node name="Viewport62" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 67 )
+
+[node name="Label62" type="Label" parent="Viewport62"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "King's Chamber South 
+Shaft: This could be 
+for ventilation, astono-
+mical function or
+ritualistic  purpose (for
+Khufu's spirit to ascend
+to the heavens).
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D63" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -76.5458, 126.457, -2.74743 )
+billboard = 2
+texture = SubResource( 171 )
+
+[node name="Viewport63" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 68 )
+
+[node name="Label63" type="Label" parent="Viewport63"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "This shaft opens 
+to the exterior 
+of the pyramid. "
+align = 1
+valign = 1
+
+[node name="Sprite3D64" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, 64.413, 126.53, -2.747 )
+billboard = 2
+texture = SubResource( 172 )
+
+[node name="Viewport64" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 69 )
+
+[node name="Label64" type="Label" parent="Viewport64"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "This shaft opens 
+to the exterior 
+of the pyramid. "
+align = 1
+valign = 1
+
+[node name="Sprite3D65" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -14.95, 71.31, -2.752 )
+billboard = 2
+texture = SubResource( 173 )
+
+[node name="Viewport65" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 70 )
+
+[node name="Label65" type="Label" parent="Viewport65"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "King's Chamber North
+Shaft: The shaft bends
+and therefore could 
+not point directly to
+a particular star in 
+the night sky.  "
+align = 1
+valign = 1
+
+[node name="Sprite3D66" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -17.117, 81.2, -5.33 )
+billboard = 2
+texture = SubResource( 181 )
+
+[node name="Viewport66" type="Viewport" parent="Sprite3D66"]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 71 )
+
+[node name="Label66" type="Label" parent="Sprite3D66/Viewport66"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Found in this chamber are 
+hieroglyphic inscriptions
+bearing the name of the
+work-gang:  “The gang,
+The-white-crown-of
+Khnumkhuwfuw-is-powerful”
+(Khnum-Khufu is Khufu's full
+birth name).
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D67" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -17.117, 83.9, -5.33 )
+billboard = 2
+texture = SubResource( 175 )
+
+[node name="Viewport67" type="Viewport" parent="Sprite3D67"]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 72 )
+
+[node name="Label67" type="Label" parent="Sprite3D67/Viewport67"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Hieroglyphic inscriptions:
+\"The gang, The Horus
+Mededuw-is-the-purifier-
+of-the-two-lands.\" (once)
+(Mededuw is Khufu's 
+Horus name)
+“The gang, The-white-
+crown-of-Khnumkhuwfuw-
+is-powerful” (once)"
+align = 1
+valign = 1
+
+[node name="Sprite3D68" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -17.117, 86.55, -5.33 )
+billboard = 2
+texture = SubResource( 178 )
+
+[node name="Viewport68" type="Viewport" parent="Sprite3D68"]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 74 )
+
+[node name="Label68" type="Label" parent="Sprite3D68/Viewport68"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Hieroglyphic inscriptions:
+“The gang, The-white-
+crown-of Khnumkhuwfuw-
+is-powerful” (ten times).
+\"The gang, The Horus
+Mededuw-is-pure\"
+(seven times).
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D69" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, -17.307, 89.35, -5.33 )
+billboard = 2
+texture = SubResource( 179 )
+
+[node name="Viewport69" type="Viewport" parent="Sprite3D69"]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 75 )
+
+[node name="Label69" type="Label" parent="Sprite3D69/Viewport69"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Hierographic inscriptions:
+\"The gang, Khufu-excites-
+love\" (once).
+“The gang, The-white-
+crown-of Khnumkhuwfuw-
+is-powerful” (twice).
+\"The gang, Khufu-excites-
+love\" (once)."
+align = 1
+valign = 1
+
+[node name="Sprite3D70" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, 9.66828, 62.3889, -0.556665 )
+billboard = 2
+texture = SubResource( 180 )
+
+[node name="Viewport70" type="Viewport" parent="Sprite3D70"]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 73 )
+
+[node name="Label70" type="Label" parent="Sprite3D70/Viewport70"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "25 niches were cut
+above the slots on 
+both the North and 
+South ramp shelves.
+They were filled with
+limestone patches.
+Trapezoidal cuttings 
+were made across 
+the niches."
+align = 1
+valign = 1
+
+[node name="Sprite3D71" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, 4.37114e-08, 0, 0.5, 0, -4.37114e-08, 0, -0.5, 2.15165, 66.0075, -0.556665 )
+billboard = 2
+texture = SubResource( 186 )
+
+[node name="Viewport71" type="Viewport" parent="Sprite3D71"]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 76 )
+
+[node name="Label71" type="Label" parent="Sprite3D71/Viewport71"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Some experts think 
+that granite plugs
+were placed here
+to be released later 
+to plug the ascending
+passage. An example 
+is shown here in cyan
+(you can move 
+through the plug). "
+align = 1
+valign = 1
+
+[node name="Sprite3D72" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, -9.54489, 72.6406, -0.247374 )
+transparent = false
+double_sided = false
+texture = SubResource( 217 )
+
+[node name="Viewport72" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 77 )
+
+[node name="Label72" type="Label" parent="Viewport72"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Semi-circular Boss:
+Function-unknown.
+Could it be part of 
+a rope system to 
+lower the 3 port-
+cullises to seal the 
+King's Chamber? "
+align = 1
+valign = 1
+
+[node name="Sprite3D73" type="Sprite3D" parent="."]
+transform = Transform( 5.96244e-09, 0, -0.5, 0, 0.5, 0, 0.5, 0, 5.96244e-09, -10.1249, 72.6006, -0.729558 )
+transparent = false
+double_sided = false
+texture = SubResource( 189 )
+
+[node name="Viewport73" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 78 )
+
+[node name="Label73" type="Label" parent="Viewport73"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "One hole on the 
+top granite block
+and another hole
+on the lower 
+granite block. 
+Function-unknown.
+These two blocks
+were not intended
+to be lowered to 
+the passage below."
+align = 1
+valign = 1
+
+[node name="Sprite3D74" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -10.4413, 73.2059, -1.14036 )
+transparent = false
+double_sided = false
+texture = SubResource( 190 )
+
+[node name="Viewport74" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 79 )
+
+[node name="Label74" type="Label" parent="Viewport74"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "3 semi-circular
+saddles are on 
+this wall but none
+on the opposite 
+wall. Why?"
+align = 1
+valign = 1
+
+[node name="Sprite3D75" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, -12.086, 73.185, -0.022 )
+double_sided = false
+texture = SubResource( 191 )
+
+[node name="Viewport75" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 80 )
+
+[node name="Label75" type="Label" parent="Viewport75"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "limestone
+^
+|
+v
+granite
+(why?)
+Efrem Piccin in 
+his book (GREAT
+PYRAMID EXPLA-
+NATION) wrote 
+that it is an earth-
+quake-resistant 
+construction."
+align = 1
+valign = 1
+
+[node name="Sprite3D76" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, -12.086, 71.9597, -0.539335 )
+double_sided = false
+texture = SubResource( 193 )
+
+[node name="Viewport76" type="Viewport" parent="."]
+size = Vector2( 50, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 81 )
+
+[node name="Label76" type="Label" parent="Viewport76"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Did tomb robbers
+chip this granite
+block to enter 
+the King's Chamber?"
+align = 1
+valign = 1
+
+[node name="Sprite3D77" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 1.35403, 0, -0.5, 0, -2.18557e-08, -14.614, 88.55, -0.326 )
+double_sided = false
+texture = SubResource( 194 )
+
+[node name="Viewport77" type="Viewport" parent="."]
+size = Vector2( 50, 100 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 82 )
+
+[node name="Label77" type="Label" parent="Viewport77"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Limestone
+beams
+
+
+
+
+
+
+
+Granite
+beams
+
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D78" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 1.35403, 0, -0.5, 0, -2.18557e-08, -14.614, 86.0546, -0.326 )
+double_sided = false
+texture = SubResource( 195 )
+
+[node name="Viewport78" type="Viewport" parent="."]
+size = Vector2( 50, 100 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 83 )
+
+[node name="Label78" type="Label" parent="Viewport78"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Limestone
+beams
+
+
+
+
+
+
+
+
+
+Granite
+beams
+
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D79" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 1.35403, 0, -0.5, 0, -2.18557e-08, -14.614, 83.2989, -0.326 )
+double_sided = false
+texture = SubResource( 196 )
+
+[node name="Viewport79" type="Viewport" parent="."]
+size = Vector2( 50, 100 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 84 )
+
+[node name="Label79" type="Label" parent="Viewport79"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Limestone
+beams
+
+
+
+
+
+
+
+
+
+Granite
+beams
+
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D80" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 1.35403, 0, -0.5, 0, -2.18557e-08, -14.614, 80.5988, -0.326 )
+double_sided = false
+texture = SubResource( 197 )
+
+[node name="Viewport80" type="Viewport" parent="."]
+size = Vector2( 50, 100 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 85 )
+
+[node name="Label80" type="Label" parent="Viewport80"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Limestone
+beams
+
+
+
+
+
+
+
+
+
+Granite
+beams
+
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D81" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 1.35403, 0, -0.5, 0, -2.18557e-08, -14.614, 78.0368, -0.414345 )
+double_sided = false
+texture = SubResource( 198 )
+
+[node name="Viewport81" type="Viewport" parent="."]
+size = Vector2( 100, 100 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 86 )
+
+[node name="Label81" type="Label" parent="Viewport81"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Limestone beams
+Granite  beams
+
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D82" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 1.35403, 0, 0, 0, 0.5, -8.505, 70.8, -1.06 )
+billboard = 1
+texture = SubResource( 199 )
+
+[node name="Viewport82" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 87 )
+
+[node name="Label82" type="Label" parent="Viewport82"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Caviglia's 
+excavation
+to investigate
+North air shaft.
+
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D83" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 1.35403, 0, 0, 0, 0.5, 33.462, 50.9708, -1.40597 )
+double_sided = false
+texture = SubResource( 201 )
+
+[node name="Viewport83" type="Viewport" parent="."]
+size = Vector2( 30, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 88 )
+
+[node name="Label83" type="Label" parent="Viewport83"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Well shaft
+(or Service
+Shaft):
+Entrance is
+nearer to
+the ground. 
+
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D84" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 1.35403, 0, 0, 0, 0.5, 33.522, 49.8, -1.436 )
+double_sided = false
+texture = SubResource( 202 )
+
+[node name="Viewport84" type="Viewport" parent="."]
+size = Vector2( 80, 80 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 89 )
+
+[node name="Label84" type="Label" parent="Viewport84"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Well shaft (or Service
+Shaft):
+Purpose 1: ventilation 
+shaft for the Subterra-
+nean Chamber
+Purpose 2:
+an escape shaft for 
+workers who seal 
+the Ascending
+Passage."
+align = 1
+valign = 1
+
+[node name="Sprite3D85" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 1.35403, 0, 0, 0, 0.5, 11.4259, 2.79982, -0.468474 )
+billboard = 1
+texture = SubResource( 203 )
+
+[node name="Viewport85" type="Viewport" parent="."]
+size = Vector2( 100, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 90 )
+
+[node name="Label85" type="Label" parent="Viewport85"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Descending
+Passage"
+align = 1
+valign = 1
+
+[node name="Sprite3D86" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 1.35403, 0, -0.5, 0, -2.18557e-08, 11.137, 2.64437, -1.44116 )
+transparent = false
+double_sided = false
+texture = SubResource( 204 )
+
+[node name="Viewport86" type="Viewport" parent="."]
+size = Vector2( 100, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 91 )
+
+[node name="Label86" type="Label" parent="Viewport86"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Well shaft 
+(or Service Shaft)"
+align = 1
+valign = 1
+
+[node name="Sprite3D87" type="Sprite3D" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 1.35403, 0, -0.5, 0, -2.18557e-08, 29.9036, 33.9336, -2.29455 )
+billboard = 1
+texture = SubResource( 205 )
+
+[node name="Viewport87" type="Viewport" parent="."]
+size = Vector2( 100, 30 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 92 )
+
+[node name="Label87" type="Label" parent="Viewport87"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Grotto is a 
+natural lime-
+stone cave.
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D88" type="Sprite3D" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 1.35403, 0, 0, 0, 0.5, 32.543, 50.1, -0.951 )
+double_sided = false
+texture = SubResource( 208 )
+
+[node name="Viewport88" type="Viewport" parent="."]
+size = Vector2( 100, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 93 )
+
+[node name="Label88" type="Label" parent="Viewport88"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Slots for
+supports to
+hold up the
+bridging slab
+(above in yellow)
+between the 
+Grand Gallery
+and Ascending
+Passage.
+
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D89" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, -4.37114e-08, 0, 1.35403, 0, 4.37114e-08, 0, -0.5, 32.543, 50.1, -0.0145788 )
+double_sided = false
+texture = SubResource( 209 )
+
+[node name="Viewport89" type="Viewport" parent="."]
+size = Vector2( 100, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 94 )
+
+[node name="Label89" type="Label" parent="Viewport89"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Slots for
+supports to
+hold up the
+bridging slab
+(above in yellow)
+between the 
+Grand Gallery
+and Ascending
+Passage.
+
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D90" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, -4.37114e-08, 0, 1.35403, 0, 4.37114e-08, 0, -0.5, -7.0727, 71.0663, 0.196337 )
+double_sided = false
+texture = SubResource( 210 )
+
+[node name="Viewport90" type="Viewport" parent="."]
+size = Vector2( 100, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 95 )
+
+[node name="Label90" type="Label" parent="Viewport90"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Move up to  enter 
+the relieving chambers
+above the King's 
+Chamber. 
+"
+align = 1
+valign = 1
+
+[node name="Sprite3D91" type="Sprite3D" parent="."]
+transform = Transform( -0.5, 0, -4.37114e-08, 0, 1.35403, 0, 4.37114e-08, 0, -0.5, -6.92315, 74.6467, -2.92303 )
+billboard = 1
+texture = SubResource( 211 )
+
+[node name="Viewport91" type="Viewport" parent="."]
+size = Vector2( 100, 50 )
+size_override_stretch = true
+transparent_bg = true
+render_target_v_flip = true
+script = ExtResource( 96 )
+
+[node name="Label91" type="Label" parent="Viewport91"]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 82 )
+text = "Dead End liao.
+Explorers 
+found 
+nothing
+here!"
+align = 1
+valign = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 9.0
+margin_top = 493.0
+margin_right = 167.0
+margin_bottom = 715.0
+text = "
+Keyboard Controls:
+A : move left
+D : move right
+W:  move forward
+S  : move back
+Q : move up
+E  : move down
+
+Combine 2 keys for other movements.
+
+Use mouse to change 
+the direction of travel."
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 31.9404, 55.2591, -0.77896 )
+
+[node name="OmniLight2" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 16.7222, 63.1359, -0.77896 )
+
+[node name="OmniLight3" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.09929, 66.8581, -0.779 )
+
+[node name="OmniLight4" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -7.46117, 75.2276, -0.77896 )
+
+[node name="OmniLight5" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 26.3999, 58.9853, -0.77896 )
+
+[node name="OmniLight6" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.552501, 71.0098, -0.77896 )
+
+[node name="OmniLight7" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 92.1891, 34.6685, -5.04111 )
+light_energy = 0.5
+
+[node name="OmniLight8" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 66.0907, 35.1404, -0.45715 )
+light_energy = 0.5
+
+[node name="OmniLight9" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.96657, 51.803, -3.74328 )
+light_energy = 0.9
+
+[node name="OmniLight10" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.99284, 50.6182, 0.486516 )
+light_energy = 0.307
+
+[node name="OmniLight11" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -66.4982, 95.01, -2.73629 )
+light_energy = 0.307
+
+[node name="OmniLight12" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.1691, 71.6036, -1.02112 )
+
+[node name="OmniLight13" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.5044, 90.4573, -2.85731 )
+
+[node name="OmniLight14" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -17.7503, 72.4722, -3.39181 )
+
+[node name="OmniLight15" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 95.3712, 44.4583, -0.614605 )
+
+[node name="OmniLight16" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 33.3759, 51.927, -0.614605 )
+
+[node name="OmniLight17" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 28.3133, 34.0126, -2.07369 )
