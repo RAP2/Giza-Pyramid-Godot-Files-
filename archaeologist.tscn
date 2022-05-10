@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://archaeologistScript.gd" type="Script" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.988235, 0.0156863, 0.152941, 1 )
+
+[sub_resource type="SphereMesh" id=3]
+material = SubResource( 2 )
+radius = 0.25
+height = 0.5
+
+[sub_resource type="SphereShape" id=1]
+
+[node name="archaeologist" type="KinematicBody"]
+script = ExtResource( 1 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 0.2228, 0, 0, 0, 0.209384, 0, 0, 0, 0.202444, 0, 0, 0 )
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 0.0585071, 0, 0, 0, 0.0549489, 0, 0, 0, 0.0533097, 0, -0.000337131, 0 )
+shape = SubResource( 1 )
+
+[node name="MeshInstance2" type="MeshInstance" parent="."]
+transform = Transform( 0.0590497, 0, 0, 0, 0.0595769, 0, 0, 0, 0.0588341, 0, 0.0130816, -0.0459226 )
+mesh = SubResource( 3 )
+material/0 = null
