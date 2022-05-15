@@ -19,7 +19,15 @@ Al-Ma'mun's forced entry
 Well shafts (and Grotto)
 
 Link to videos:
+
+Explore Khufu Pyramid Interior using Godot CSG and Sprite3D Text
 https://youtu.be/iEisytPyPOM
+
+Explore Khufu Pyramid Interior using Godot CSG and Sprite3D Text (Android)
 https://youtu.be/sDRBa1ePPmg
+
+How did I Add Text to My Godot project
 https://youtu.be/TJZe5XAPDyE
+
+How Did I Add Text to my Godot Projects Part2
 https://youtu.be/0yUgLYUNqrk
