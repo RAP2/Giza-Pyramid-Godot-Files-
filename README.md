@@ -18,5 +18,8 @@ Ante Chamber (and portcullises)
 Al-Ma'mun's forced entry
 Well shafts (and Grotto)
 
-Link to the video:
+Link to videos:
 https://youtu.be/iEisytPyPOM
+https://youtu.be/sDRBa1ePPmg
+https://youtu.be/TJZe5XAPDyE
+https://youtu.be/0yUgLYUNqrk
