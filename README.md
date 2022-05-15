@@ -17,3 +17,6 @@ King's Chamber (and its air shafts)
 Ante Chamber (and portcullises)
 Al-Ma'mun's forced entry
 Well shafts (and Grotto)
+
+Link to the video:
+https://youtu.be/iEisytPyPOM
